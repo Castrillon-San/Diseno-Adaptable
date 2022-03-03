@@ -3,7 +3,7 @@
     position: fixed;
     bottom: 0;
     height: 50px;
-    width: 100%;
+    width:100%;
     margin-left: -8px;
     background-color: rgb(178, 166, 140);    
     display:flex;
@@ -22,14 +22,13 @@
 
 }
 .pantalla_producto{
-    
-    background-color: rgb(178, 166, 140);    
-
-    width:960px;
-    height:800px;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
     justify-content: center;
     align-items: center;
-
+    margin: 0 auto;
    
   }
 
@@ -55,11 +54,15 @@
     
   }
 
-  .vendedor{
+  .info_vendedor{
     display: flex;
     justify-content: center;
     align-items: center;
-
+  }
+  .vendedor{
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
   }
   .vendedorPerfil{
     
@@ -76,13 +79,12 @@
     border-style:none;
   }
 
-  .botonCarrito{
+  .botoncarrito{
    
     width: 170px;;
     height: 50px;;
     background:rgb(220, 201, 168);
     border-radius:15px;
-
   }
   .descripcionProducto{
     height: 50px;
