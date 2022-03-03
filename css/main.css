@@ -1,0 +1,114 @@
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    margin-left: -8px;
+    background-color: rgb(178, 166, 140);    
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.rotador_producto{
+    display:flex;
+    justify-content:center;
+    width:auto;
+    height:480px;
+    margin: 0 auto;
+
+
+}
+.pantalla_producto{
+    
+    background-color: rgb(178, 166, 140);    
+
+    width:960px;
+    height:800px;
+    justify-content: center;
+    align-items: center;
+
+   
+  }
+
+
+.button{
+    text-align:center;
+    width: 70px;;
+    height: 70px;;
+    background:rgb(220, 201, 168);
+    border-radius:50px;
+    margin-top:-30px ;
+  }
+
+  .visualizador_imagenes{
+    height: 400px;
+    width: 560px;
+    margin-top: 30px;
+    background-color: rgb(178, 166, 140);    
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px;    
+    text-align: center;
+    
+  }
+
+  .vendedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .vendedorPerfil{
+    
+    width: 70px;;
+    height: 70px;;
+    border-radius:50px;
+    border-style:none;
+  }
+  .imageButton{
+    width: 70px;;
+    height: 70px;;
+    background:rgb(220, 201, 168);
+    border-radius:50px;
+    border-style:none;
+  }
+
+  .botonCarrito{
+   
+    width: 170px;;
+    height: 50px;;
+    background:rgb(220, 201, 168);
+    border-radius:15px;
+
+  }
+  .descripcionProducto{
+    height: 50px;
+    width: 560px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  .botonProducto{
+
+    text-align:center;
+    width: 150px;;
+    height: 250px;;
+    background:rgb(220, 201, 168);
+    border-radius:15px;
+  }  
+  .productosSimilares{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+  }
+  .nombre_vendedor{
+
+    margin-left:20px;
+  }
+
+  .titulo_producto{
+    margin-top: 415px;
+    }

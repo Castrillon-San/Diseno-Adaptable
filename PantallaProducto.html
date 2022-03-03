@@ -6,105 +6,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\PantallaProducto.css">
+    <link rel="stylesheet" href="css\Main.css">
     <title>PantallaProducto</title>
 </head>
 
 <body>
-    <div class="padre">
-       <div class="barraInferior">
-        <input type="button" class="button" id="btn_1" value="Home" >
-        <input type="button" class="button" id="btn_2" value="Compras" >
-        <input type="button" class="button" id="btn_3" value="Ventas" >
-        <input type="button" class="button" id="btn_4" value="Favoritos" >
-        <input type="button" class="button" id="btn_5" value="Perfil" >
+    <section id="pantalla_producto">   
+        <div class="rotador_producto">  
+            <div class="visualizador_imagenes"> 
+                <H2 class="titulo_producto">
+                    Título del producto
+                </H2>
+            </div>
+           
         </div>
 
-      <div class="visualizadorImaganes"> 
-
-
-      </div>
-      
-    </div>
-    <center> <H2 class="Titulo Producto">
-        Titulo del producto
-    </H2></center>
-     <br>
-
-     <section class="vendedor">
-           <div>    
-               <img src="https://i.ibb.co/RYxRvTg/blank-profile-picture-973460-1280.png" alt="blank-profile-picture-973460-1280" alt="" class="vendedorPerfil">
-           </div>
-           <h3 class="NombreVendedor">
-            &emsp; 
-            Nombre del vendedor
-           </h3>
-           <h2 class="Precio">
-            &emsp; &emsp; &emsp; 
-             $$$$
-           </h2> 
-          
-
-     </section>
-     <br>
-     <center>
-
-        <input type="button" class="botonCarrito" id="btn_1" value="Agregar al carrito" >
-
-     </center>
-     <br>
-     <div class="padre" >
-        <div class="descripcionProducto" >
-      
-            <h2>
-               Descripción
-            </h2>    
-
-         </div>
-         
-     </div>
-     <div class="padre" >
-        <div class="descripcionProducto" >
-      
-            <p align="center">                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."            
-            </p>  
-
-         </div>
-         
-     </div>
+        <div class="vendedor">
+                
+                    <img src="https://i.ibb.co/RYxRvTg/blank-profile-picture-973460-1280.png" alt="blank-profile-picture-973460-1280" alt="" class="vendedorPerfil">
+                
+                <h3 class="nombre_vendedor">
+                 Nombre del vendedor
+                </h3>
+                <h2 class="Precio">
+                 &emsp; &emsp; &emsp; 
+                  $$$$
+                </h2> 
+        </div>
+        
+        <div class="menu">
+       
+            <input type="button" class="button" id="btn_1" value="Home" >
+            <input type="button" class="button" id="btn_2" value="Compras" >
+            <input type="button" class="button" id="btn_3" value="Ventas" >
+            <input type="button" class="button" id="btn_4" value="Favoritos" >
+            <input type="button" class="button" id="btn_5" value="Perfil" >
+     
+        </div>
+    </section>
     
-     <br><br><br><br><br>
-
-     <div class="padre" >
-        <div class="descripcionProducto" >
-      
-            <h2>
-               Productos Similares
-            </h2>    
-
-         </div>
-         
-     </div>
-     <br>
-     <div class="padre" >
-        <div class="productosSimilares">   
-            <input type="button" class="botonProducto" id="botonProducto_1" value="Producto 1" > &emsp; 
-            <input type="button" class="botonProducto" id="botonProducto_2" value="Producto 2" > &emsp; 
-            <input type="button" class="botonProducto" id="botonProducto_3" value="Producto 3" >  
-        
-                </div>
-     </div>
-
-        
-        
-            
-
-     
-      <br><br><br><br><br><br>
-
-
-     
 </body>
-
-
 </html>
+<!-- <div class="vendedor">
+
+                <input type="button" class="botonCarrito" id="btn_1" value="Agregar al carrito" >
+
+               <div>    
+                   <img src="https://i.ibb.co/RYxRvTg/blank-profile-picture-973460-1280.png" alt="blank-profile-picture-973460-1280" alt="" class="vendedorPerfil">
+               </div>
+               <h3 class="NombreVendedor">
+                &emsp; 
+                Nombre del vendedor
+               </h3>
+               <h2 class="Precio">
+                &emsp; &emsp; &emsp; 
+                 $$$$
+               </h2> 
+        </div>
+         <br>
+         <br>
+         <div class="padre" >
+            <div class="descripcionProducto" >
+          
+                <h2>
+                   Descripción
+                </h2>    
+    
+             </div>
+             
+         </div>
+         <div class="padre" >
+            <div class="descripcionProducto" >
+                <p>                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."            
+                </p>  
+             </div>
+         </div>
+         <br><br><br><br><br>
+         <div class="padre" >
+            <div class="descripcionProducto" >
+                <h2>
+                   Productos Similares
+                </h2>    
+             </div>  
+         </div>
+         <br>
+         <div class="padre" >
+            <div class="productosSimilares">   
+                <input type="button" class="botonProducto" id="botonProducto_1" value="Producto 1" > &emsp; 
+                <input type="button" class="botonProducto" id="botonProducto_2" value="Producto 2" > &emsp; 
+                <input type="button" class="botonProducto" id="botonProducto_3" value="Producto 3" >  
+            
+            </div>
+         </div> -->
