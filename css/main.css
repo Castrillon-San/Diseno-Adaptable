@@ -56,20 +56,16 @@
 
   .info_vendedor{
     display: flex;
-    justify-content: center;
+    width: 400px;
+    justify-content:space-evenly;
     align-items: center;
   }
-  .vendedor{
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0 auto;
-  }
-  .vendedorPerfil{
+
+  .vendedor_perfil{
+    width: 70px;
+    height: 70px;
+   border-radius: 50px;
     
-    width: 70px;;
-    height: 70px;;
-    border-radius:50px;
-    border-style:none;
   }
   .imageButton{
     width: 70px;;
@@ -86,14 +82,14 @@
     background:rgb(220, 201, 168);
     border-radius:15px;
   }
-  .descripcionProducto{
-    height: 50px;
-    width: 560px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
+  .descripcion_producto{
+    height: auto;
+    width: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+
   }
-  .botonProducto{
+  .boton_producto{
 
     text-align:center;
     width: 150px;;
@@ -101,10 +97,11 @@
     background:rgb(220, 201, 168);
     border-radius:15px;
   }  
-  .productosSimilares{
+  .productos_similares{
     display: flex;
+    width: 600px;
+    height: 350px;
     justify-content: space-evenly;
-    align-items: space-evenly;
   }
   .nombre_vendedor{
 
