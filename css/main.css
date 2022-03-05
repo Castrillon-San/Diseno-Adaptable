@@ -29,7 +29,18 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-   
+    background-color: antiquewhite;
+
+  }
+  .pantalla_ventas{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   background-color: antiquewhite;
   }
 
 
@@ -111,3 +122,28 @@
   .titulo_producto{
     margin-top: 415px;
     }
+
+  .opciones_ventas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+  }
+  .boton_opcion_venta{
+    width: 170px;;
+    height: 70px;;
+    background:rgb(220, 201, 168);
+    border-radius:45px;
+  }
+  .text_left{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+  }
+  .text_right{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+  }
