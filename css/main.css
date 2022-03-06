@@ -29,7 +29,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: rgb(238, 232, 225);
 
   }
   .pantalla_ventas{
@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-   background-color: antiquewhite;
+   background-color: rgb(238, 232, 225);
   }
 
 
@@ -135,11 +135,34 @@
     background:rgb(220, 201, 168);
     border-radius:45px;
   }
+  .productos_disponibles{
+    
+    display: flex;
+    flex-direction: column;
+    width:340px;
+    height: 1000px;;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(236, 225, 210);
+    border-radius: 25px;
+    margin-bottom: 150px;
+  }
+  .producto_en_venta{
+
+    display:flex;
+    flex-direction: column;
+    width: 92%;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background:rgb(220, 201, 168);
+
+  }
   .text_left{
     width: 400px;
     height: 70px;
-    display: flex;
-    justify-content: start;
   }
   .text_right{
     width: 400px;
@@ -147,3 +170,26 @@
     display: flex;
     justify-content: start;
   }
+ 
+  .icons8-editar { 
+    width: 45px;
+    height: 45px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSAxOC40MTQwNjIgMiBDIDE4LjE1ODA2MiAyIDE3LjkwMjAzMSAyLjA5Nzk2ODcgMTcuNzA3MDMxIDIuMjkyOTY4OCBMIDE1LjcwNzAzMSA0LjI5Mjk2ODggTCAxNC4yOTI5NjkgNS43MDcwMzEyIEwgMyAxNyBMIDMgMjEgTCA3IDIxIEwgMjEuNzA3MDMxIDYuMjkyOTY4OCBDIDIyLjA5ODAzMSA1LjkwMTk2ODcgMjIuMDk4MDMxIDUuMjY4OTA2MyAyMS43MDcwMzEgNC44Nzg5MDYyIEwgMTkuMTIxMDk0IDIuMjkyOTY4OCBDIDE4LjkyNjA5NCAyLjA5Nzk2ODcgMTguNjcwMDYzIDIgMTguNDE0MDYyIDIgeiBNIDE4LjQxNDA2MiA0LjQxNDA2MjUgTCAxOS41ODU5MzggNS41ODU5Mzc1IEwgMTguMjkyOTY5IDYuODc4OTA2MiBMIDE3LjEyMTA5NCA1LjcwNzAzMTIgTCAxOC40MTQwNjIgNC40MTQwNjI1IHogTSAxNS43MDcwMzEgNy4xMjEwOTM4IEwgMTYuODc4OTA2IDguMjkyOTY4OCBMIDYuMTcxODc1IDE5IEwgNSAxOSBMIDUgMTcuODI4MTI1IEwgMTUuNzA3MDMxIDcuMTIxMDkzOCB6Ij48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+    background-size: 70%; 
+    background-color: rgb(238, 232, 225);
+    border-radius:50px;
+    margin-inline-end: 1%;
+  }
+  .info_mi_producto{
+    display: flex;
+    width: 100%;
+    justify-content:left;
+    align-items: center;
+    height: auto;
+  margin-inline-start: 15%;
+  }
+  #producto_propio{
+    width: 80%;
+
+  }
+  
