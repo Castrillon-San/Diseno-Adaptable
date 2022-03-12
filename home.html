@@ -4,65 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css\main.css">
+    <title>Home</title>
 </head>
 <body>
-    <img  src="https://png.pngtree.com/png-clipart/20190604/original/pngtree-business-logo-design-png-image_915991.jpg"
-    alt="Solvetic" width="100" height="100" >
-    <img src="" alt="icono menu" width="50" height="50">
-    <img src="" alt="icono notificaciones" width="50" height="50">
-    <img src="" alt="icono de compras" width="50" height="50">
+        <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+        <label for="abrir-cerrar">
+            &#9776; <span class="abrir"></span><span class="cerrar"></span>
+        </label>
+        
+        <div id="sidebar" class="sidebar">
+            <ul class="menu2">
+                <li><a  href="home.html"> Mi perfil</a> </li>
+                <li><a  href="home.html"> Mis compras</a> </li>
+                <li><a  href="pantallaventas.html"> Mis ventas</a> </li>
+                <li><a  href="home.html"> Mis favoritos</a> </li>
     
-<form action="../../form-result.php" method="post" target="_blank">
-
-    <p>
-  
-      Buscar: <input type="search" name="busqueda" placeholder="titulo,autor">
-  
-      <input type="submit" value="Buscar">
-  
-    </p>
-     
-  </form>
-  <div class="productos">
-
-    <h1>Imagenes de los productos</h1>
-
     
-    <div class="tz-gallery">
-
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="../images/park.jpg">
-                    <img src="../images/park.jpg" alt="Producto">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="../images/bridge.jpg">
-                    <img src="../images/bridge.jpg" alt="Producto2">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="../images/tunnel.jpg">
-                    <img src="../images/tunnel.jpg" alt="Producto3">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="../images/coast.jpg">
-                    <img src="../images/coast.jpg" alt="Producto4">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="../images/rails.jpg">
-                    <img src="../images/rails.jpg" alt="Producto5">
-                </a>
-            </div>
-           
+            </ul>
         </div>
+ 
+       
+        
+       
+   <div id="home">
+
+    <div class="home_bar">
+        <img  src="https://i.ibb.co/WG8YP7M/Alerce-1.png"
+        alt="Solvetic" class="btn_home" id="logo" >
+      <div class="home_bar" id="home_btns">
+        <input type="button"class="icons8-notificacion" >
+        <input type="button"class="icons8-carrito" >
 
     </div>
-
 </div>
+        <p>    
+            <input type="search" name="busqueda" placeholder="Buscar" class="busqueda_home">
+        </p>
+        <br>
+
+        <div class="banner">
+
+
+        </div>
+        <br>
+        <div class="mostrador">
+            <div class="productos_mostrador">   
+                <input type="button" class="boton_producto" value="Producto 1" >  
+                <input type="button" class="boton_producto" value="Producto 2" > 
+            
+            </div>
+            <div class="productos_mostrador">   
+                <input type="button" class="boton_producto" value="Producto 1" >  
+                <input type="button" class="boton_producto" value="Producto 2" > 
+            
+            </div> 
+            <div class="productos_mostrador">   
+                <input type="button" class="boton_producto" value="Producto 1" >  
+                <input type="button" class="boton_producto" value="Producto 2" > 
+            
+            </div> 
+
+
+        </div>
+        
+   
+    
+    
+
+   </div>
+    
+ 
+ 
+    
+    
+    <div class="menu">
+           
+        <input type="button" class="button" id="btn_1" value="Home" >
+        <input type="button" class="button" id="btn_2" value="Compras" >
+        <input type="button" class="button" id="btn_3" value="Ventas" >
+        <input type="button" class="button" id="btn_4" value="Favoritos" >
+        <input type="button" class="button" id="btn_5" value="Perfil" >
+ 
+      </div>
+  
+    
 </body>
 </html>
