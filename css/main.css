@@ -98,6 +98,18 @@
     text-align: center;
     
   }
+  .pantalla_compras{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(238, 232, 225);
+    margin-bottom: 100px;
+
+  }
 
   .info_vendedor{
     display: flex;
