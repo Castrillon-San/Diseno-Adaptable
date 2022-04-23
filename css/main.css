@@ -623,23 +623,26 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 .splash_image{
 
+  width: 420px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  width: 40%;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin-left: 25px;
 }
 
 .login{
+  width: 400px;
+  height: auto;
   display: flex;
 
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(242,238,236);
-  margin: 0 auto;
-
+  margin-left: 25px;
+  margin-bottom: 50px;
 }
 
 #ingreso_datos{
@@ -663,7 +666,7 @@ justify-content: center;
 align-items: center;
 }
 #redes{
-  width: 30%;
+  width: 50%;
 }
 .btn_home{
   width: 50px;
