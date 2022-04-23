@@ -1,4 +1,6 @@
 
+html {background-color: rgb(242,238,236);}
+
 #home{
 
   width: 420px;
@@ -623,31 +625,26 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 
   display: flex;
   flex-direction: column;
-  width: 1080px;
-  height: 960px;
+  width: 40%;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
-#splash{
-  background-color: rgb(242,238,236);
 
-}
 .login{
-  width: 100%;
-  height: 960px;
   display: flex;
+
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background-color: rgb(242,238,236);
+  margin: 0 auto;
 
 }
 
 #ingreso_datos{
 
 
-  width: 100%;
-  height: 960px;
 display: flex;
 margin: 0 auto;
 flex-direction: column;
@@ -656,17 +653,17 @@ align-items: center;
 
 }
 .form{
+  display: flex;
 
-  width: 50%;
+  width: 30%;
   height: auto;
-display: flex;
 margin: 0 auto;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 #redes{
-  width: 10%;
+  width: 30%;
 }
 .btn_home{
   width: 50px;
