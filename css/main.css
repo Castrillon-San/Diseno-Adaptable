@@ -623,13 +623,17 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 .splash_image{
 
-  width: 420px;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 25px;
+
+}
+.imagen_splash{
+  width: 400px;
+  height: 400px;
 }
 
 .login{
@@ -644,7 +648,14 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   margin-left: 25px;
   margin-bottom: 50px;
 }
-
+.aling_in_column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
 #ingreso_datos{
 
 
