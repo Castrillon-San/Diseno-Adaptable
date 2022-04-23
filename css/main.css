@@ -1,7 +1,6 @@
 
-
-<meta name="viewport" content="width=1000; initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
 html {background-color: rgb(242,238,236);}
+
 #home{
 
   width: 420px;
@@ -459,7 +458,8 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 body {
     font-family: "Segoe UI", sans-serif;
     font-size:100%;
-
+    margin:0;
+    padding:0;
 }
 
 header {
@@ -467,6 +467,7 @@ header {
 
 
     color:#eee;
+    width:100%;
 }
 
 input#abrir-cerrar {
