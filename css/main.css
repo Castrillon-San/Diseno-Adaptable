@@ -10,7 +10,6 @@ html {background-color:#eee8e1;}
   align-items: center;
   margin-top: 10px;
   margin: 0 auto;
-
   }
 .menu{
     position: fixed;
@@ -49,12 +48,11 @@ html {background-color:#eee8e1;}
   .pantalla_ventas{
     display: flex;
     flex-direction: column;
-    width:100%;
+    width:429px;
     height:auto;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-   background-color: rgb(238, 232, 225);
   }
   .pantalla_carrito{
     display: flex;
@@ -64,10 +62,11 @@ html {background-color:#eee8e1;}
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
-    margin-left: 10px;
 
   }
-
+.centrado{
+  text-align: center;
+}
   .registro_ventas{
     display: flex;
     flex-direction: column;
@@ -110,7 +109,7 @@ html {background-color:#eee8e1;}
   .pantalla_compras{
     display: flex;
     flex-direction: column;
-    width:100%;
+    width:440px;
     height:auto;
     justify-content: space-evenly;
     align-items: center;
@@ -209,7 +208,7 @@ html {background-color:#eee8e1;}
 
     display: flex;
     flex-direction: column;
-    width:340px;
+    width:90%;
     height: 1000px;;
     justify-content: space-evenly;
     align-items: center;
@@ -231,7 +230,7 @@ html {background-color:#eee8e1;}
 
   }
   .text_left{
-    width: 400px;
+    width: 80%;
     display: flex;
 
   }
@@ -400,9 +399,9 @@ html {background-color:#eee8e1;}
 
   display: flex;
   width: 90%;
-  height: 300px;
+  height: 320px;
   justify-content: space-evenly;
-
+margin-top: 10px;
 }
 .resumen_producto{
   display: flex;
@@ -426,9 +425,13 @@ font-size: 12px;
   justify-content: space-evenly;
 }
 .button_normal{
+  width: 100px;
   height: 36px;
   background:rgb(220, 201, 168);
   border-radius:10px;
+  margin-top: 10px;
+  margin-bottom: : 10px;
+
 }
 .descripcion{
   height: auto;
