@@ -629,6 +629,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 
 }
 .imagen_splash{
@@ -637,7 +638,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 
 .login{
-  width: 400px;
+  width: auto;
   height: auto;
   display: flex;
 
@@ -647,14 +648,16 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   background-color: rgb(242,238,236);
   margin-left: 25px;
   margin-bottom: 50px;
+  margin: 0 auto;
+
 }
 .aling_in_column{
   display: flex;
+  width: 400px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  font-size: 13px;
 }
 #ingreso_datos{
 
