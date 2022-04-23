@@ -174,6 +174,8 @@ html {background-color:#eee8e1;}
     text-align:left;
     background-size:cover;
       text-align-last: right;
+      cursor: pointer;
+
   }
 
 
@@ -258,6 +260,7 @@ html {background-color:#eee8e1;}
     border-radius:50px;
     margin-inline-end: 1%;
     background-color: rgb(238, 232, 225);
+    cursor: pointer;
 
     filter: invert(38%) sepia(80%) saturate(80%)  brightness(150%) contrast(80%);
 
@@ -268,8 +271,7 @@ html {background-color:#eee8e1;}
     height: 40px;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB9UlEQVRoge2Yu0oDQRRAj6LBR3xro50PUPBRRURSiFYi/pJ+QrBUwcZ/ECsRQT/BINqIlj4wClET1GJ3cVfnkd3sZEfZA9PsnUvOnbk7kwRS/hcrwC5wAby4owjsuDFrGQVOgE/NOALGE3KUsgg8opf3xj2QT8RUwARB+TJQAOaBTqADyLnPyr55d8BYAr4BmoBjvqWugWnF/BnglmA7JcoSwZVXyXvMAq++vGVjdjWw5xMphMjb8uVtG/CqmXOfSC5E3oIvr2jAS8gccIhzrotOlqw770ESl42Sm5fxPXsGDnDaLRbWgIpGxCOMvC63AqzWK99PbatqogDvuO1VCTZrClgH+jRzTDLgOkjRFTAZn0tkplRBXQHDMYpEZUQV1BWgTG4QykVsqSfZRx7nq0UUdLnKRdR96BPQHdYoZkpAjyyoKiCLc6nYQBfOJfoL1TtgQ/97SFv5rxQgdVEVYMMR6hGpAJt2IFILpTsQI+lLnDTSAmQXWTPOD/WMEZ3wVIA24ONnQLYDQ9gjD9AKDIoCsgJs6n8PoZOsAJv63yNUATbugHBR0x1oIKF2wMYC0pc4aYSLKruJ33EuD5t4w7mNA8h24MasSySETrIC9g2KRCWUUxtwRrQ/a02MUwTto6Md2ASugGoC0lXgEthwXVJSUv4jX1sp48EpJc4bAAAAAElFTkSuQmCC') 50% 50% no-repeat;
     background-size: 70%;
-
-
+     cursor: pointer;
     border-radius:50px;
     margin-inline-end: 1%;
     background-color: rgb(238, 232, 225);
@@ -286,6 +288,7 @@ html {background-color:#eee8e1;}
     filter: invert(38%) sepia(80%) saturate(80%)  brightness(150%) contrast(80%);
     border-radius:50px;
     margin-inline-end: 1%;
+    cursor: pointer;
 
   }
 
@@ -298,6 +301,7 @@ html {background-color:#eee8e1;}
     filter: invert(38%) sepia(80%) saturate(80%)  brightness(150%) contrast(80%);
     border-radius:50px;
     margin-inline-end: 1%;
+    cursor: pointer;
 
   }
   .icons8-perfil{
@@ -309,6 +313,7 @@ html {background-color:#eee8e1;}
     filter: invert(38%) sepia(80%) saturate(80%)  brightness(150%) contrast(80%);
     border-radius:50px;
     margin-inline-end: 1%;
+    cursor: pointer;
 
   }
   .icons8-back {
@@ -319,6 +324,8 @@ html {background-color:#eee8e1;}
     background-size: 70%;
     border-radius:50px;
     margin-inline-end: 25%;
+    cursor: pointer;
+
   }
 
   .icons8-notificacion {
@@ -329,6 +336,8 @@ html {background-color:#eee8e1;}
     background-size: 70%;
     border-radius:50px;
     margin-inline-end: 25%;
+    cursor: pointer;
+
   }
 
   .icons8-carrito {
@@ -339,6 +348,8 @@ html {background-color:#eee8e1;}
     background-size: 70%;
     border-radius:50px;
     margin-inline-end: 25%;
+    cursor: pointer;
+
   }
   .info_mi_producto{
     display: flex;
@@ -394,6 +405,8 @@ html {background-color:#eee8e1;}
   background:rgb(220, 201, 168);
   border-radius:15px;
   background-size: cover;
+  cursor: pointer;
+
 }
 .producto_carrito{
 
@@ -745,18 +758,20 @@ align-items: center;
   margin: 0 auto;
   margin-bottom: 80px;
   background-color: rgb(236, 225, 210);
+
   border-radius: 20px;
 }
 .filtros{
   display: flex;
   width: 80%;
-  height: 30px;
+  height: 50px;
   justify-content: space-evenly;
+  margin-bottom: 10px;
 }
 
 .filtro{
   width: 25%;
-  height: 30px;
+  height: 25px;
   border-radius: 40px;
   background-color: rgb(178, 166, 140,0.4);
   align-items: center;
@@ -1242,4 +1257,22 @@ p.ism-badge a.ism-link:hover {
 }
 #producto6{
   background-image: url(https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/16174287/image/10328a9c143bda0665f346ec0e46cd5e);
+}
+#producto7{
+  background-image: url(https://www.tornamesa.co/imagenes/9789584/978958424403.GIF);
+}
+#producto8{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVxdv-VLJQqqTk_2FHTWDMQAjNEs4J8dWqJH36ETA4WZWJyBCa_zNFAEwD9fzwxIFG2k&usqp=CAU);
+}
+#producto9{
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/51Jz4bGeA9L._SX319_BO1,204,203,200_.jpg);
+}
+#producto10{
+  background-image: url(https://www.planetadelibros.com.mx/usuaris/libros/fotos/172/m_libros/una-escalera-al-cielo_9789584240019.jpg);
+}
+#producto11{
+  background-image: url(https://i.pinimg.com/originals/8a/a9/d4/8aa9d4f0161a0f22860016274d1927c9.jpg);
+}
+#producto12{
+  background-image: url(https://static.cegal.es/imagenes/marcadas/9789584/978958423945.gif);
 }
