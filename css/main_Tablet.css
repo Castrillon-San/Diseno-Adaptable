@@ -3,12 +3,12 @@ html {background-color:#eee8e1;}
 
 #home{
 
-  width: 680px;
+  width: 750px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 15px;
   margin: 0 auto;
   }
 .menu{
@@ -697,14 +697,14 @@ align-items: center;
   width: 50%;
 }
 .btn_home{
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50px;
   margin-left: 150px;
 }
 #logo{
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
 }
 
 .hamburguesa{
@@ -722,7 +722,7 @@ align-items: center;
 .home_btns{
 
   display: flex;
-  width: 250px;
+  width: 350px;
  justify-content: space-evenly;
   margin-left: 50px;
   margin-left: 30px;
@@ -736,8 +736,8 @@ align-items: center;
 }
 .busqueda_home{
 
-  width: 530px;
-  height: 40px;
+  width: 700px;
+  height: 55px;
   background:rgb(220, 201, 168);
   border-radius:15px;
   border: none;
