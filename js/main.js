@@ -13,16 +13,23 @@ class Cliente {
    this.profilePic=profilePic;
   }
 }
+
+/*Descripciones*/
 let sam= new Cliente("Samuel Palacio","https://randomuser.me/api/portraits/men/11.jpg");
-let santi= new Cliente("Santiago Castrillon","https://randomuser.me/api/portraits/men/3.jpg");
+let santi= new Cliente("Santiago Castrillón","https://randomuser.me/api/portraits/men/3.jpg");
 let mari= new Cliente("Mariana Cano","https://randomuser.me/api/portraits/women/84.jpg");
 
 let d1="Una mujer hermosa e ingenua que roba con destreza a altos ejecutivos, un pintor habitado por fuerzas misteriosas y un sacerdote que se enfrenta a un caso de posesión demoníaca en la Candelaria, el barrio colonial de Bogotá.Historias que se tejen en torno a la de Campo Elías, héroe de la guerra de Vietnam, quien inicia su particular descenso a los infiernos, obsesionado por la dualidad entre el bien y el mal, entre Jekyll y Hyde, y se convertirá en un ángel exterminador.";
 let d2="Libro en buenas condiciones, apenas se compro hace 1 mes";
 let d3="En el Pandemonium, la discoteca de moda de Nueva York, Clary sigue a un atractivo chico de pelo azul hasta que presencia su muerte a manos de tres jóvenes cubiertos de extraños tatuajes. Desde esa noche, su destino se une al de esos tres cazadores de sombras, guerreros dedicados a liberar a la tierra de demonios y, sobre todo, al de Jace, un chico con aspecto de ángel y tendencia a actuar como un idiota.";
 let d4="La librera recomienda Cuentos Macabros Lacombe borda esta nueva adaptación un clásico, porque nada podría pegar más a su estilo tétrico que los protagonistas de Poe. Tanto si te gusta la ilustración como los relatos de terror, échale un vistazo a esta obra de arte. (Ana Piñeiro, Librería de A Coruña ) Una edición de lujo de los cuentos de Edgar Allan Poe, maestro del terror. Los inquietantes relatos, que se presentan con la traducción de Julio Cortázar, van acompañados de las espectaculares ilustraciones de Benjamin Lacombe. Esta edición única incluye además un texto de Baudelaire sobre la vida y obra de Poe.";
+let d5 = "Al final mueren los dos Por Silvera Adam ,  Imagina un mundo en el que una organización les avisa a las personas la inminencia de su muerte. imagina que comenzó la cuenta regresiva. imagina cómo vivirías tu vida... en solo un día. ¿Estarías listo para decir adiós? al final mueren los dos es un canto a la fuerza arrolladora de la vida, que transformará para siempre tu forma de comprender el tiempo, la amistad y el amor.";
+let d6 ="Es la historia de la búsqueda de Siddhartha, un rico brahmán indio que abandona una vida de privilegio y consuelo para buscar la realización espiritual y la sabiduría. En su viaje, Siddhartha se encuentra con ascetas errantes, monjes budistas y comerciantes exitosos, así como con una cortesana llamada Kamala y un simple barquero que ha alcanzado la iluminación. Viajando entre estas personas y experimentando los pasajes vitales de la vida: amor, trabajo, amistad y paternidad, Siddhartha descubre que el verdadero conocimiento es guiado desde adentro."
+let d7 ="Libro original, buen estado, se acepta pago contraentrega. Envios a Medellin son gratuitos.";
 
-let m_libros =[new Libro("Satanas",d1,"20.000",sam),new Libro("El Psicoanalista",d2,"39.000",sam),new Libro("Ciudad de Hielo",d3,"19.000",mari),new Libro("Cuentos Macabros",d4,"29.000",santi)];
+/*Arreglo de libros*/
+let m_libros =[new Libro("Satanas",d1,"20.000",sam),new Libro("El Psicoanalista",d2,"39.000",sam),new Libro("Ciudad de Hielo",d3,"19.000",mari),new Libro("Cuentos Macabros",d4,"29.000",santi),new Libro("Al final mueren los dos",d5,"19.000",sam),new Libro("Siddhartha",d6,"13.000",sam),new Libro("La Locura de Nuestro Tiempo",d7,"33.000",santi),new Libro("La Melancolía de los Feos",d7,"13.000",sam),new Libro("El Libro De Las Revelaciones",d7,"20.000",mari),new Libro("Una Escalera Al Cielo",d7,"13.000",sam),new Libro("Los Hombres Invisibles",d7,"17.000",mari)
+,new Libro("Apocalipsis",d7,"13.000",mari)];
 
 
 function seleccionarProducto(pos){
