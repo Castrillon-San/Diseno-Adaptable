@@ -1063,8 +1063,8 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width:800px;
-    height: 550px;
+    width:700px;
+    height: 450px;
     margin-bottom: 20px;
     -webkit-border-radius: 20px; border-radius: 20px;
 }
@@ -1140,8 +1140,8 @@ p.ism-badge a.ism-link:hover {
 /* SLIDES */
 
 #my-slider .ism-slide-0 .ism-img-frame {
-    width: 910px;
-    height: 550px;
+    width: 700px;
+    height: 450px;
 }
 
 #my-slider .ism-slide-0 .ism-img {
