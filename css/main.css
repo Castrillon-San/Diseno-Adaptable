@@ -28,8 +28,8 @@ html {background-color:#eee8e1;}
 .rotador_producto{
     display:flex;
     justify-content:center;
-    width:auto;
-    height:480px;
+    width:96%;
+    height:280px;
     margin: 0 auto;
 
 
@@ -37,7 +37,7 @@ html {background-color:#eee8e1;}
 .pantalla_producto{
     display: flex;
     flex-direction: column;
-    width:100%;
+    width:420px;
     height:auto;
     justify-content: center;
     align-items: center;
@@ -96,8 +96,8 @@ html {background-color:#eee8e1;}
   }
 
   .visualizador_imagenes{
-    height: 400px;
-    width: 560px;
+    height: 80%;
+    width: 100%;
     margin-top: 30px;
     background-color: rgb(178, 166, 140);
     justify-content:center;
@@ -149,7 +149,7 @@ html {background-color:#eee8e1;}
   }
   .descripcion_producto{
     height: auto;
-    width: 500px;
+    width: 400px;
     text-align: justify;
     text-justify: inter-word;
 
@@ -181,7 +181,7 @@ html {background-color:#eee8e1;}
 
   .productos_similares{
     display: flex;
-    width: 600px;
+    width: 440px;
     height: 350px;
     justify-content: space-evenly;
   }
@@ -191,7 +191,7 @@ html {background-color:#eee8e1;}
   }
 
   .titulo_producto{
-    margin-top: 415px;
+    margin-top: 225px;
     }
 
   .opciones_ventas{

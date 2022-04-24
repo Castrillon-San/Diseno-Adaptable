@@ -1,68 +1,76 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=no" name="viewport"/>
     <link rel="stylesheet" href="css\main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+
+          window.onload = loadProduct;
+     </script>
     <title>PantallaProducto</title>
 </head>
 
 <body>
-    <section class="pantalla_producto">   
-            <div class="rotador_producto">  
-                <div class="visualizador_imagenes"> 
-                    <H2 class="titulo_producto">
+    <section class="pantalla_producto">
+            <div class="rotador_producto">
+                <div class="visualizador_imagenes" >
+                    <H2 class="titulo_producto" id="producto_seleccionado" >
                         Título del producto
                     </H2>
                 </div>
                 </div>
-            <div class="info_vendedor">     
-               
-                    <img src="https://i.ibb.co/RYxRvTg/blank-profile-picture-973460-1280.png" alt="blank-profile-picture-973460-1280" alt="" class="vendedor_perfil">
-                    <h3 class="nombre_vendedor">
+            <div class="info_vendedor">
+
+        <p id="foto_vendedor"></p>
+
+                    <h3 class="nombre_vendedor" id="vendedor">
                     Nombre del vendedor
                         </h3>
-                    <h2 >
+                    <h2 id="precio">
                     $$$$$$$
-                        </h2> 
-                    
-                </div>
-            <div >
-                <a  href="home.html"><input class=" botoncarrito" type="button" value="Agregar al carrito" >  </a> 
+                        </h2>
 
                 </div>
-            <h2>
+            <div >
+                <a  href="home.html"><input class=" botoncarrito" type="button" value="Agregar al carrito" >  </a>
+
+                </div>
+             <h2 >
                 Descripción
-                </h2> 
-            <div class="descripcion_producto"  >
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."       
+                </h2>
+            <div class="descripcion_producto" id="producto_mostrado"  >
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </div>
             <h2>
                 Productos Similares
-                </h2>  
-            <div class="productos_similares">   
-                <a  href="pantallaproducto.html"> <input type="button" class="boton_producto" value="Producto 1" >    </a> 
-                <a  href="pantallaproducto.html"> <input type="button" class="boton_producto" value="Producto 2" >    </a> 
-                <a  href="pantallaproducto.html">  <input type="button" class="boton_producto" value="Producto 3" >      </a> 
+                </h2>
+            <div class="productos_similares">
+
+                <a  href="pantallaproducto.html"> <input type="button" class="boton_producto" id="producto5" >    </a>
+                <a  href="pantallaproducto.html">  <input type="button" class="boton_producto"id="producto6" >    </a>
 
                 </div>
         </section>
         <div class="menu">
-           
-      
-            <a  href="home.html">  <input type="button" class="button" id="btn_1" value="Home" ></a> 
-            <a  href="pantallacompras.html">  <input type="button" class="button" id="btn_2" value="Compras" ></a> 
-            <a  href="pantallaventas.html"> <input type="button" class="button" id="btn_3" value="Ventas" ></a> 
-            <input type="button" class="button" id="btn_4" value="Favoritos" >
-            <input type="button" class="button" id="btn_5" value="Perfil" >
-        
-        
-          </div>
-  
-    
+
+           <div class="menu_bar">
+             <a  href="home.html">  <input type="button" class="icons8-home"  ></a>
+             <a  href="pantallacompras.html">  <input type="button" class="icons8-compras"  ></a>
+             <a  href="pantallaventas.html"> <input type="button" class="icons8-ventas" ></a>
+             <a  href="pantallaventas.html"> <input type="button" class="icons8-favoritos"  ></a>
+             <a  href="pantallaventas.html"> <input type="button" class="icons8-perfil" ></a>
+
+           </div>
+
+
+       </div>
+
 </body>
 
 

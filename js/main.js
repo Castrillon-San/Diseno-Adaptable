@@ -1,9 +1,90 @@
 
+class Libro {
+  constructor(titulo, descripcion,precio,cliente) {
+    this.titulo = titulo;
+    this.descripcion = descripcion;
+    this.precio = precio;
+    this.cliente=cliente;
+  }
+}
+class Cliente {
+  constructor(nombre,profilePic) {
+   this.nombre=nombre;
+   this.profilePic=profilePic;
+  }
+}
+let sam= new Cliente("Samuel Palacio","https://randomuser.me/api/portraits/men/11.jpg");
+let santi= new Cliente("Santiago Castrillon","https://randomuser.me/api/portraits/men/3.jpg");
+let mari= new Cliente("Mariana Cano","https://randomuser.me/api/portraits/women/84.jpg");
+
+let d1="Una mujer hermosa e ingenua que roba con destreza a altos ejecutivos, un pintor habitado por fuerzas misteriosas y un sacerdote que se enfrenta a un caso de posesión demoníaca en la Candelaria, el barrio colonial de Bogotá.Historias que se tejen en torno a la de Campo Elías, héroe de la guerra de Vietnam, quien inicia su particular descenso a los infiernos, obsesionado por la dualidad entre el bien y el mal, entre Jekyll y Hyde, y se convertirá en un ángel exterminador.";
+let d2="Libro en buenas condiciones, apenas se compro hace 1 mes";
+let d3="En el Pandemonium, la discoteca de moda de Nueva York, Clary sigue a un atractivo chico de pelo azul hasta que presencia su muerte a manos de tres jóvenes cubiertos de extraños tatuajes. Desde esa noche, su destino se une al de esos tres cazadores de sombras, guerreros dedicados a liberar a la tierra de demonios y, sobre todo, al de Jace, un chico con aspecto de ángel y tendencia a actuar como un idiota.";
+let d4="La librera recomienda Cuentos Macabros Lacombe borda esta nueva adaptación un clásico, porque nada podría pegar más a su estilo tétrico que los protagonistas de Poe. Tanto si te gusta la ilustración como los relatos de terror, échale un vistazo a esta obra de arte. (Ana Piñeiro, Librería de A Coruña ) Una edición de lujo de los cuentos de Edgar Allan Poe, maestro del terror. Los inquietantes relatos, que se presentan con la traducción de Julio Cortázar, van acompañados de las espectaculares ilustraciones de Benjamin Lacombe. Esta edición única incluye además un texto de Baudelaire sobre la vida y obra de Poe.";
+
+let m_libros =[new Libro("Satanas",d1,"20.000",sam),new Libro("El Psicoanalista",d2,"39.000",sam),new Libro("Ciudad de Hielo",d3,"19.000",mari),new Libro("Cuentos Macabros",d4,"29.000",santi)];
+
+
+function seleccionarProducto(pos){
+  localStorage.setItem('index', pos);
+  self.location = "pantallaproducto.html";
+}
+
+
+function loadProduct() {
+
+   let index = localStorage.getItem('index');
+   if(index==null){
+     self.location = "home.html";
+   }
+
+  elemento=document.getElementById("producto_seleccionado");
+  elemento_descripcion=document.getElementById("producto_mostrado");
+  elemento_vendedor=document.getElementById("vendedor");
+  elemento_precio=document.getElementById("precio");
+  elemento_fotoVendedor=document.getElementById("foto_vendedor");
+
+  elemento.innerHTML=m_libros[index].titulo;
+  elemento_descripcion.innerHTML=m_libros[index].descripcion;
+  elemento_vendedor.innerHTML=m_libros[index].cliente.nombre;
+  elemento_precio.innerHTML=m_libros[index].precio;
+  imagen_vendedor=m_libros[index].cliente.profilePic;
+  html ="<img src= " +imagen_vendedor+" alt='blank-profile-picture-973460-1280'  class='vendedor_perfil'>";
+  elemento_fotoVendedor.innerHTML=html;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BANNER*/
 (function(){function e(b,c){this.selector=null;c?this.nodes=c:"string"==typeof b?(this.selector=b,this.nodes=document.querySelectorAll(b)):this.nodes=[b];this.length=this.nodes.length;this.el=this.nodes[0]}function d(b){return new e(b)}function k(b,c){function l(a,c,d){a=a||{};e();!1!==c&&r();N=n=f=null;p=-1;C=z=D=E=null;A=!1;B=null;F=!1;q=null;k(a);u();S(f.transition_type,!0);n.find("#"+b+" .ism-caption").css("visibility","hidden");T();ca();x(f.play_type);da();setTimeout(function(){!0!==d&&h()},
 1E3)}function e(){d("#"+b+"-ism-loading-mask").remove();var a=document.createElement("DIV");a.id=b+"-ism-loading-mask";a.style.position="absolute";a.style.zIndex=10;a.style.top=0;a.style.bottom=0;a.style.left=0;a.style.right=0;a.style.backgroundColor="#eee";d("#"+b).el.appendChild(a)}function h(){d("#"+b).show();1==d("#"+b+"-ism-loading-mask").length&&d("#"+b+"-ism-loading-mask").fadeOut(400,function(){d("#"+b+"-ism-loading-mask").remove();O(0);U(0)})}function k(a){for(var c in G){var g=typeof G[c];
 
