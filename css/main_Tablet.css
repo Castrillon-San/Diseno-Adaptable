@@ -489,8 +489,6 @@ header {
 
 input#abrir-cerrar {
     visibility:hidden;
-
-
 }
 
 
@@ -541,15 +539,15 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 
 .sidebar {
     position: absolute;
-    height: 76%;
+    height: 80%;
 
     z-index: 10;
     background-color: rgb(236, 225, 210);
     overflow-x: hidden;
     transition: 0.4s;
-    border-top-right-radius:34px;
-    border-bottom-right-radius: 34px;
-    margin-top: 30px;
+    border-top-right-radius:40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 50px;
 
 }
 
@@ -560,10 +558,10 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     font-size: 2rem;
     display: block;
     padding: 0;
-    line-height: 1.5rem;
+    line-height: 2rem;
     margin: 0;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     text-align: center;
     margin-left: 1000px;
 
@@ -571,15 +569,15 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 
 .sidebar ul, .sidebar li{
-    margin:0;
-    padding:0;
+    margin:0.3rem;
+    padding:0.3rem;
     list-style:none inside;
 }
 
 .sidebar ul {
     margin: 4rem auto;
     display: block;
-    width: 80%;
+    width: 100%;
     min-width:130px;
 }
 
