@@ -117,8 +117,8 @@ h2{
   .pantalla_compras{
     display: flex;
     flex-direction: column;
-    width:440px;
-    height:auto;
+    width: 800px;
+    height: auto;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
@@ -160,6 +160,7 @@ h2{
     width: 500px;
     text-align: justify;
     text-justify: inter-word;
+    margin: auto;
   }
   .text_box{
     width: 100%;
@@ -453,6 +454,7 @@ font-size: 18px;
   border-radius:10px;
   margin-top: 10px;
   margin-bottom: 10px;
+
 
 }
 .descripcion{
@@ -1285,3 +1287,4 @@ p.ism-badge a.ism-link:hover {
 #producto12{
   background-image: url(https://static.cegal.es/imagenes/marcadas/9789584/978958423945.gif);
 }
+
