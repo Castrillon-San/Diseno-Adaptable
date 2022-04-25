@@ -117,7 +117,7 @@ h2{
   .pantalla_compras{
     display: flex;
     flex-direction: column;
-    width:800px;
+    width:750px;
     height:auto;
     justify-content: space-evenly;
     align-items: center;
@@ -160,6 +160,7 @@ h2{
     width: 500px;
     text-align: justify;
     text-justify: inter-word;
+    margin: auto;
   }
   .text_box{
     width: 100%;
