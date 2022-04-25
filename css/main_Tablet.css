@@ -371,7 +371,7 @@ h2{
 
   }
   .carrito_back{
-   margin-top: 60px;
+   margin-top: 1rem;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -381,15 +381,15 @@ h2{
     width: 600px;;
     height: 50px;;
     background:rgb(220, 201, 168);
-    border-radius:15px;
+    border-radius:25px;
     border: none;
 
   }
   .buscar{
     width: 70px;;
-    height: 35px;;
+    height: 50px;;
     background:rgb(220, 201, 168);
-    border-radius:10px;
+    border-radius:30px;
     margin-inline-start: 10px;
   }
   .icons8-basura {
