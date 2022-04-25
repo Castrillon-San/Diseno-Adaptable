@@ -482,7 +482,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 
 body {
     font-family: "Segoe UI", sans-serif;
-    font-size:100%;
+    font-size:135%;
     margin:0;
     padding:0;
 }
