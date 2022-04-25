@@ -736,13 +736,8 @@ align-items: center;
 }
 .productos_mostrador{
   display: flex;
-<<<<<<< HEAD
   width: 600px;
   height: 500px;
-=======
-  width: 750px;
-  height: 650px;
->>>>>>> main
   justify-content: space-evenly;
   align-items: center;
 }
@@ -757,11 +752,7 @@ align-items: center;
 }
 
 .mostrador{
-<<<<<<< HEAD
   width: 680px;
-=======
-  width: 700px;
->>>>>>> main
   height: 1540px;
   display: flex;
   align-items: center;
