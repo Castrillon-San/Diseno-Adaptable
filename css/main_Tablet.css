@@ -502,15 +502,14 @@ input#abrir-cerrar {
 
 label[for="abrir-cerrar"] {
   position:absolute;
-  height:30px;
-  width: 30px;
-  z-index: 10;
-  text-align:center;
+  height:50px;
+  width: 50px;
+  z-index: 15;
   background-color: rgb(236, 225, 210);
   transition: 0.4s;
   margin-top: 39px;
-  margin-left: 50px;
-  border-radius: 59px;
+  margin-left: 39px;
+  border-radius: 39px;
   text-align: center;
 
 }
@@ -561,13 +560,13 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 
 .sidebar .boton-cerrar {
     position: absolute;
-    top: 0.5rem;
+    top: 1rem;
     right: 1rem;
     font-size: 2rem;
     display: block;
     padding: 0;
     line-height: 2rem;
-    margin: 0;
+    margin: 1rem;
     height: 60px;
     width: 60px;
     text-align: center;
@@ -737,8 +736,13 @@ align-items: center;
 }
 .productos_mostrador{
   display: flex;
+<<<<<<< HEAD
   width: 600px;
   height: 500px;
+=======
+  width: 750px;
+  height: 650px;
+>>>>>>> main
   justify-content: space-evenly;
   align-items: center;
 }
@@ -753,7 +757,11 @@ align-items: center;
 }
 
 .mostrador{
+<<<<<<< HEAD
   width: 680px;
+=======
+  width: 700px;
+>>>>>>> main
   height: 1540px;
   display: flex;
   align-items: center;
