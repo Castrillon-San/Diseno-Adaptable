@@ -365,6 +365,7 @@ html {background-color:#eee8e1;}
   }
   .carrito_back{
    margin-top: 50px;
+   margin: 1rem;
     display: flex;
     justify-content: left;
     align-items: center;
