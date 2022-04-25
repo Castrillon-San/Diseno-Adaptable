@@ -780,11 +780,13 @@ align-items: center;
 
 .filtro{
   width: 25%;
-  height: 25px;
+  height: 50px;
   border-radius: 40px;
   background-color: rgb(178, 166, 140,0.4);
   align-items: center;
-text-align: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 .icons8-cerrar {
   width: 45px;
