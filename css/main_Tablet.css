@@ -1,14 +1,22 @@
 
 html {background-color:#eee8e1;}
 
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
 #home{
 
-  width: 750px;
+  width: 680px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
   margin: 0 auto;
   }
 .menu{
@@ -57,8 +65,8 @@ html {background-color:#eee8e1;}
   .pantalla_carrito{
     display: flex;
     flex-direction: column;
-    width:450px;
-    height:1150px;
+    width:870px;
+    height:1332px;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
@@ -232,7 +240,7 @@ html {background-color:#eee8e1;}
 
   }
   .text_left{
-    width: 80%;
+    width: 110%;
     display: flex;
 
   }
@@ -317,8 +325,8 @@ html {background-color:#eee8e1;}
 
   }
   .icons8-back {
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAY0lEQVRIie2UMQqAMBAEJ2Lhs/Ii9Sna+R0/5qWJCjYqYSXCDRwpDmYgxYHzF0IemXwGFkVklxuwAVEp713+qbx0DppLxBATgInziwaPVBEpOhXtzd6AMb8dsL4NPEV6rh0tCXInNHOI/GCqAAAAAElFTkSuQmCC') 50% 50% no-repeat;
     background-color:rgb(220, 201, 168);
     background-size: 70%;
@@ -364,15 +372,15 @@ html {background-color:#eee8e1;}
 
   }
   .carrito_back{
-   margin-top: 50px;
+   margin-top: 100px;
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 400px;
+    width: 1000px;
   }
   .busqueda{
-    width: 300px;;
-    height: 70px;;
+    width: 600px;;
+    height: 50px;;
     background:rgb(220, 201, 168);
     border-radius:15px;
     border: none;
@@ -380,10 +388,10 @@ html {background-color:#eee8e1;}
   }
   .buscar{
     width: 70px;;
-    height: 40px;;
+    height: 35px;;
     background:rgb(220, 201, 168);
     border-radius:10px;
-    margin-inline-start: 20px;
+    margin-inline-start: 10px;
   }
   .icons8-basura {
 
@@ -697,14 +705,14 @@ align-items: center;
   width: 50%;
 }
 .btn_home{
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   margin-left: 150px;
 }
 #logo{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .hamburguesa{
@@ -722,22 +730,22 @@ align-items: center;
 .home_btns{
 
   display: flex;
-  width: 400px;
+  width: 250px;
  justify-content: space-evenly;
   margin-left: 50px;
   margin-left: 30px;
 }
 .productos_mostrador{
   display: flex;
-  width: 700px;
-  height: 600px;
+  width: 600px;
+  height: 500px;
   justify-content: space-evenly;
   align-items: center;
 }
 .busqueda_home{
 
-  width: 800px;
-  height: 55px;
+  width: 530px;
+  height: 40px;
   background:rgb(220, 201, 168);
   border-radius:15px;
   border: none;
@@ -745,8 +753,8 @@ align-items: center;
 }
 
 .mostrador{
-  width: 780px;
-  height: 1640px;
+  width: 680px;
+  height: 1540px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -784,7 +792,7 @@ text-align: center;
 }
 /* banner principal */
 
-.ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width:800px; list-style: none; margin: 0; padding: 0; }
+.ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width:600px; list-style: none; margin: 0; padding: 0; }
 .ism-slider {
   overflow: hidden;
   position: relative;
@@ -1063,8 +1071,8 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width:700px;
-    height: 450px;
+    width:600px;
+    height: 350px;
     margin-bottom: 20px;
     -webkit-border-radius: 20px; border-radius: 20px;
 }
@@ -1140,8 +1148,7 @@ p.ism-badge a.ism-link:hover {
 /* SLIDES */
 
 #my-slider .ism-slide-0 .ism-img-frame {
-    width: 700px;
-    height: 450px;
+    width: 100%;
 }
 
 #my-slider .ism-slide-0 .ism-img {
@@ -1215,6 +1222,7 @@ p.ism-badge a.ism-link:hover {
     background:rgb(220, 201, 168,0.75);
 
 }
+
 
 
 #my-slider .ism-slide-1 .ism-caption-0 {
