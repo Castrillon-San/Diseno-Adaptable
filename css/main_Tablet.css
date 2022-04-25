@@ -371,9 +371,9 @@ h2{
 
   }
   .carrito_back{
-   margin-top: 1rem;
+    margin-top: 1rem !important; 
+    margin-left: 1rem;
     display: flex;
-    justify-content: left;
     align-items: center;
     width: 800px;
   }
