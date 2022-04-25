@@ -745,8 +745,8 @@ align-items: center;
 }
 
 .mostrador{
-  width: 680px;
-  height: 1540px;
+  width: 780px;
+  height: 1640px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
