@@ -443,7 +443,7 @@ font-size: 12px;
   background:rgb(220, 201, 168);
   border-radius:10px;
   margin-top: 10px;
-  margin-bottom: : 10px;
+  margin-bottom:  10px;
 
 }
 .descripcion{
@@ -743,9 +743,6 @@ align-items: center;
   background:rgb(220, 201, 168);
   border-radius:15px;
   border: none;
-
-}
-.entrada{
 
 }
 .mostrador{
