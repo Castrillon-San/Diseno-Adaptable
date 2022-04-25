@@ -372,11 +372,11 @@ h2{
 
   }
   .carrito_back{
-   margin-top: 100px;
+   margin-top: 120px;
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 1000px;
+    width: 800px;
   }
   .busqueda{
     width: 600px;;
