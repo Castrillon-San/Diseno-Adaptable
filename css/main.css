@@ -149,7 +149,7 @@ html {background-color:#eee8e1;}
   }
   .descripcion_producto{
     height: auto;
-    width: 400px;
+    width: 500px;
     text-align: justify;
     text-justify: inter-word;
 
@@ -181,7 +181,7 @@ html {background-color:#eee8e1;}
 
   .productos_similares{
     display: flex;
-    width: 440px;
+    width: 490px;
     height: 350px;
     justify-content: space-evenly;
   }
