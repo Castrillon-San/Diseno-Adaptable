@@ -1,10 +1,11 @@
 
 class Libro {
-  constructor(titulo, descripcion,precio,cliente) {
+  constructor(titulo, descripcion,precio,cliente,imagenes = []) {
     this.titulo = titulo;
     this.descripcion = descripcion;
     this.precio = precio;
     this.cliente=cliente;
+    this.imagenes=imagenes;
   }
 }
 class Cliente {
@@ -13,6 +14,9 @@ class Cliente {
    this.profilePic=profilePic;
   }
 }
+
+let imagenes_1 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_988790-MCO43380106237_092020-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_976111-MCO43380090914_092020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_711886-MCO42708505586_072020-F.webp');
+
 
 /*Descripciones*/
 let sam= new Cliente("Samuel Palacio","https://randomuser.me/api/portraits/men/11.jpg");
@@ -28,8 +32,8 @@ let d6 ="Es la historia de la búsqueda de Siddhartha, un rico brahmán indio qu
 let d7 ="Libro original, buen estado, se acepta pago contraentrega. Envios a Medellin son gratuitos.";
 
 /*Arreglo de libros*/
-let m_libros =[new Libro("Satanas",d1,"20.000",sam),new Libro("El Psicoanalista",d2,"39.000",sam),new Libro("Ciudad de Hielo",d3,"19.000",mari),new Libro("Cuentos Macabros",d4,"29.000",santi),new Libro("Al final mueren los dos",d5,"19.000",sam),new Libro("Siddhartha",d6,"13.000",sam),new Libro("La Locura de Nuestro Tiempo",d7,"33.000",santi),new Libro("La Melancolía de los Feos",d7,"13.000",sam),new Libro("El Libro De Las Revelaciones",d7,"20.000",mari),new Libro("Una Escalera Al Cielo",d7,"13.000",sam),new Libro("Los Hombres Invisibles",d7,"17.000",mari)
-,new Libro("Apocalipsis",d7,"13.000",mari)];
+let m_libros =[new Libro("Satanás",d1,"20.000",sam,imagenes_1),new Libro("El Psicoanalista",d2,"39.000",sam,imagenes_1),new Libro("Ciudad de Hielo",d3,"19.000",mari,imagenes_1),new Libro("Cuentos Macabros",d4,"29.000",santi,imagenes_1),new Libro("Al final mueren los dos",d5,"19.000",sam,imagenes_1),new Libro("Siddhartha",d6,"13.000",sam,imagenes_1),new Libro("La Locura de Nuestro Tiempo",d7,"33.000",santi,imagenes_1),new Libro("La Melancolía de los Feos",d7,"13.000",sam,imagenes_1),new Libro("El Libro De Las Revelaciones",d7,"20.000",mari,imagenes_1),new Libro("Una Escalera Al Cielo",d7,"13.000",sam,imagenes_1),new Libro("Los Hombres Invisibles",d7,"17.000",mari,imagenes_1)
+,new Libro("Apocalipsis",d7,"13.000",mari,imagenes_1)];
 
 
 function seleccionarProducto(pos){
@@ -50,6 +54,9 @@ showSlides(slideIndex);
   elemento_vendedor=document.getElementById("vendedor");
   elemento_precio=document.getElementById("precio");
   elemento_fotoVendedor=document.getElementById("foto_vendedor");
+  elemento_foto_1=document.getElementById("image_slider_1");
+  elemento_foto_2=document.getElementById("image_slider_2");
+  elemento_foto_3=document.getElementById("image_slider_3");
 
   elemento.innerHTML=m_libros[index].titulo;
   elemento_descripcion.innerHTML=m_libros[index].descripcion;
@@ -58,6 +65,12 @@ showSlides(slideIndex);
   imagen_vendedor=m_libros[index].cliente.profilePic;
   html ="<img src= " +imagen_vendedor+" alt='blank-profile-picture-973460-1280'  class='vendedor_perfil'>";
   elemento_fotoVendedor.innerHTML=html;
+  html="<img src= " +m_libros[index].imagenes[0]+"  class='image_slider'>";
+  elemento_foto_1.innerHTML=html;
+  html="<img src= " +m_libros[index].imagenes[1]+"  class='image_slider'>";
+  elemento_foto_2.innerHTML=html;
+  html="<img src= " +m_libros[index].imagenes[2]+"  class='image_slider'>";
+  elemento_foto_3.innerHTML=html;
 }
 
 
