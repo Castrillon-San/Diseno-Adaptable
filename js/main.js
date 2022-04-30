@@ -16,6 +16,7 @@ class Cliente {
 }
 
 let imagenes_1 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_988790-MCO43380106237_092020-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_976111-MCO43380090914_092020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_711886-MCO42708505586_072020-F.webp');
+let imagenes_2 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_988790-MCO43380106237_092020-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_976111-MCO43380090914_092020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_711886-MCO42708505586_072020-F.webp');
 
 
 /*Descripciones*/
@@ -38,16 +39,14 @@ let m_libros =[new Libro("Satanás",d1,"20.000",sam,imagenes_1),new Libro("El Ps
 
 function seleccionarProducto(pos){
   localStorage.setItem('index', pos);
-  self.location = "pantallaproducto.html";
+   window.location.href = "pantallaproducto.html";
+
 }
 
 
 function loadProduct() {
-showSlides(slideIndex);
-   let index = localStorage.getItem('index');
-   if(index==null){
-     self.location = "home.html";
-   }
+  let index = localStorage.getItem('index');
+
 
   elemento=document.getElementById("producto_seleccionado");
   elemento_descripcion=document.getElementById("producto_mostrado");
@@ -71,6 +70,8 @@ showSlides(slideIndex);
   elemento_foto_2.innerHTML=html;
   html="<img src= " +m_libros[index].imagenes[2]+"  class='image_slider'>";
   elemento_foto_3.innerHTML=html;
+  showSlides(slideIndex);
+
 }
 
 
