@@ -159,6 +159,7 @@ h2{
     text-align: justify;
     text-justify: inter-word;
     margin: auto;
+    font-size: 1.5rem;
   }
   .text_box{
     width: 100%;
@@ -201,23 +202,23 @@ h2{
     }
 
   .opciones_ventas{
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 450px;
+    height: 600px;
   }
   .boton_opcion_venta{
-    width: 170px;;
-    height: 70px;;
+    width: 600px;;
+    height: 150px;;
     background:rgb(220, 201, 168);
     border-radius:45px;
+    font-size: 2rem;
   }
   .productos_disponibles{
 
     display: flex;
     flex-direction: column;
-    width:90%;
-    height: 1000px;;
+    width:100%;
+    height: 1000px;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
@@ -229,18 +230,18 @@ h2{
 
     display:flex;
     flex-direction: column;
-    width: 92%;
-    height: 280px;
+    width: 700px;
+    height: 380px;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
     background:rgb(220, 201, 168);
+    margin: 1rem;
 
   }
   .text_left{
-    width: 80%;
-    display: flex;
-
+   display: flex;
+   margin: 1rem;
   }
   .text_right{
     width: 400px;
@@ -363,7 +364,8 @@ h2{
     justify-content:left;
     align-items: center;
     height: auto;
-  margin-inline-start: 15%;
+    margin-inline-start: 15%;
+    font-size: 1.5rem;
   }
   #producto_propio{
     width: 80%;
@@ -666,10 +668,10 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 
 .login{
-  width: auto;
-  height: auto;
+  width: 2rem;
+  height: 2rem;
   display: flex;
-
+  font-size: 2rem;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -687,24 +689,23 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   margin-top: 20px;
 }
 #ingreso_datos{
-
-
-display: flex;
-margin: 0 auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+ display: flex;
+ margin: 0 auto;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
 
 }
 .form{
   display: flex;
-
-  width: 30%;
+  width: 60%;
   height: auto;
-margin: 0 auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 #redes{
   width: 50%;
@@ -1288,3 +1289,103 @@ p.ism-badge a.ism-link:hover {
   background-image: url(https://static.cegal.es/imagenes/marcadas/9789584/978958423945.gif);
 }
 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  min-width:380px;
+  max-width: 380px;
+
+  position: relative;
+  margin: auto;
+}
+.image_c{
+   min-width:100;
+  max-width: 100%;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(178, 166, 140);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: rgb(178, 166, 140,0.5);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.image_slider{
+  min-width:100%;
+  max-width: 100%;
+  height:300px;
+  object-fit: cover;
+  margin-top: 25px;
+  border-radius: 30px;
+}
