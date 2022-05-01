@@ -668,10 +668,10 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 
 .login{
-  width: auto;
-  height: auto;
+  width: 2rem;
+  height: 2rem;
   display: flex;
-
+  font-size: 2rem;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -689,24 +689,23 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   margin-top: 20px;
 }
 #ingreso_datos{
-
-
-display: flex;
-margin: 0 auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+ display: flex;
+ margin: 0 auto;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-size: 2rem;
 
 }
 .form{
   display: flex;
-
-  width: 30%;
+  width: 60%;
   height: auto;
-margin: 0 auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 #redes{
   width: 50%;
