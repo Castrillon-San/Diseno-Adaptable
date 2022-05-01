@@ -16,7 +16,12 @@ class Cliente {
 }
 
 let imagenes_1 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_988790-MCO43380106237_092020-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_976111-MCO43380090914_092020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_711886-MCO42708505586_072020-F.webp');
-let imagenes_2 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_988790-MCO43380106237_092020-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_976111-MCO43380090914_092020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_711886-MCO42708505586_072020-F.webp');
+let imagenes_2 = new Array('https://http2.mlstatic.com/D_NQ_NP_941374-MCO43701065948_102020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_993074-MCO43701079800_102020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_942373-MCO43701118171_102020-O.webp');
+let imagenes_3 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_950665-MCO44739808912_012021-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_608341-MLA48833707882_012022-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_950665-MCO44739808912_012021-F.webp');
+let imagenes_4 = new Array('https://i.ebayimg.com/images/g/qd4AAOSw03JiTlks/s-l500.jpg', 'https://i.ebayimg.com/images/g/WPoAAOSwjyNiTllC/s-l500.jpg', 'https://i.ebayimg.com/images/g/3FgAAOSwpMFhwuSI/s-l300.jpg');
+let imagenes_5 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_945862-MCO47631532886_092021-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_862552-MCO47631592367_092021-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_740624-MCO48284454979_112021-F.webp');
+let imagenes_6 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_952597-MCO47413559137_092021-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_970086-MCO47413588019_092021-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_624882-MCO47413459789_092021-F.webp');
+let imagenes_7 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_933517-MCO47559932242_092021-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_926285-MCO47633024291_092021-F.webp', 'https://store-cdn.venndelo.com/shared/imagen-89512.jpg');
 
 
 /*Descripciones*/
@@ -33,8 +38,8 @@ let d6 ="Es la historia de la búsqueda de Siddhartha, un rico brahmán indio qu
 let d7 ="Libro original, buen estado, se acepta pago contraentrega. Envios a Medellin son gratuitos.";
 
 /*Arreglo de libros*/
-let m_libros =[new Libro("Satanás",d1,"20.000",sam,imagenes_1),new Libro("El Psicoanalista",d2,"39.000",sam,imagenes_1),new Libro("Ciudad de Hielo",d3,"19.000",mari,imagenes_1),new Libro("Cuentos Macabros",d4,"29.000",santi,imagenes_1),new Libro("Al final mueren los dos",d5,"19.000",sam,imagenes_1),new Libro("Siddhartha",d6,"13.000",sam,imagenes_1),new Libro("La Locura de Nuestro Tiempo",d7,"33.000",santi,imagenes_1),new Libro("La Melancolía de los Feos",d7,"13.000",sam,imagenes_1),new Libro("El Libro De Las Revelaciones",d7,"20.000",mari,imagenes_1),new Libro("Una Escalera Al Cielo",d7,"13.000",sam,imagenes_1),new Libro("Los Hombres Invisibles",d7,"17.000",mari,imagenes_1)
-,new Libro("Apocalipsis",d7,"13.000",mari,imagenes_1)];
+let m_libros =[new Libro("Satanás",d1,"20.000",sam,imagenes_1),new Libro("El Psicoanalista",d2,"39.000",sam,imagenes_2),new Libro("Ciudad de Hielo",d3,"19.000",mari,imagenes_3),new Libro("Cuentos Macabros",d4,"29.000",santi,imagenes_4),new Libro("Al final mueren los dos",d5,"19.000",sam,imagenes_5),new Libro("Siddhartha",d6,"13.000",sam,imagenes_6),new Libro("La Locura de Nuestro Tiempo",d7,"33.000",santi,imagenes_7),new Libro("La Melancolía de los Feos",d7,"13.000",sam,imagenes_7),new Libro("El Libro De Las Revelaciones",d7,"20.000",mari,imagenes_7),new Libro("Una Escalera Al Cielo",d7,"13.000",sam,imagenes_7),new Libro("Los Hombres Invisibles",d7,"17.000",mari,imagenes_7)
+,new Libro("Apocalipsis",d7,"13.000",mari,imagenes_7)];
 
 
 function seleccionarProducto(pos){
