@@ -37,7 +37,7 @@ html {background-color:#eee8e1;}
 .pantalla_producto{
     display: flex;
     flex-direction: column;
-    width:420px;
+    width:400px;
     height:auto;
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ html {background-color:#eee8e1;}
   }
   .descripcion_producto{
     height: auto;
-    width: 400px;
+    width: 390px;
     text-align: justify;
     text-justify: inter-word;
 
@@ -181,7 +181,7 @@ html {background-color:#eee8e1;}
 
   .productos_similares{
     display: flex;
-    width: 490px;
+    width: 400px;
     height: 350px;
     justify-content: space-evenly;
   }
@@ -732,7 +732,7 @@ align-items: center;
 }
 .productos_mostrador{
   display: flex;
-  width: 400px;
+  width: 380px;
   height: 300px;
   justify-content: space-evenly;
   align-items: center;
@@ -1374,4 +1374,37 @@ background-color: rgb(178, 166, 140,0.5);
   object-fit: cover;
   margin-top: 25px;
   border-radius: 30px;
+}
+
+#top_margin{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 65px;
+  height: 65px;
+  cursor: auto;
+
+}
+
+#button_width{
+  width:155px;
+}
+
+#right_margin{
+  margin-left: 99px;
+  margin-top: 12px;
+  width: 40px;
+  height: 40px;
+
+}
+.pantalla_favoritos{
+  display: flex;
+  flex-direction: column;
+  width:410px;
+  height:auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(238, 232, 225);
+  margin-bottom: 100px;
+
 }
