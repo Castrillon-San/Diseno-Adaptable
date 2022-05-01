@@ -201,16 +201,16 @@ h2{
     }
 
   .opciones_ventas{
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 450px;
+    height: 600px;
   }
   .boton_opcion_venta{
-    width: 170px;;
-    height: 70px;;
+    width: 400px;;
+    height: 150px;;
     background:rgb(220, 201, 168);
     border-radius:45px;
+    font-size: 2rem;
   }
   .productos_disponibles{
 
