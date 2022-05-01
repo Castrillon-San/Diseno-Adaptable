@@ -112,7 +112,21 @@ function showSlides(n) {
 
 
 
+let ventana_login;
 
+window.onload = init;
+
+function init(){
+	ventana_login = document.getElementById('ventana_login');
+}
+
+function irA(){
+		ventana_login.classList.remove("ocultar");
+}
+
+function cerrarLogin(){
+	ventana_login.classList.add("ocultar");
+}
 
 
 
