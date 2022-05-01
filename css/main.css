@@ -357,7 +357,7 @@ html {background-color:#eee8e1;}
     justify-content:left;
     align-items: center;
     height: auto;
-  margin-inline-start: 15%;
+    margin-inline-start: 15%;
   }
   #producto_propio{
     width: 80%;

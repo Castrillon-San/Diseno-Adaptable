@@ -159,6 +159,7 @@ h2{
     text-align: justify;
     text-justify: inter-word;
     margin: auto;
+    font-size: 1.5rem;
   }
   .text_box{
     width: 100%;
@@ -240,6 +241,7 @@ h2{
   }
   .text_left{
    display: flex;
+   margin: 1rem;
   }
   .text_right{
     width: 400px;
@@ -362,7 +364,8 @@ h2{
     justify-content:left;
     align-items: center;
     height: auto;
-  margin-inline-start: 15%;
+    margin-inline-start: 15%;
+    font-size: 1.5rem;
   }
   #producto_propio{
     width: 80%;
