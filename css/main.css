@@ -76,6 +76,8 @@ html {background-color:#eee8e1;}
     align-items: center;
     margin: 0 auto;
     background-color: rgb(238, 232, 225);
+    margin-bottom: 40px;
+    
   }
 
 .menu_bar{
@@ -1549,4 +1551,13 @@ margin-bottom: 10px;
    border-radius: 50px;
    margin-left: 16px;
    margin-top: 30px;
+  }
+  .boton_producto_vendido{
+
+    width: 100px;
+    height: 150px;;
+    background:rgb(220, 201, 168);
+    border-radius:15px;
+    background-size:cover;
+
   }
