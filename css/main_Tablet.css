@@ -387,7 +387,8 @@ h3{
     justify-content: left;
     display: flex;
     align-items: center;
-    width: 800px;
+    width: 700px;
+    margin-bottom: -16px;
   }
   .busqueda{
     width: 600px;;
@@ -1489,4 +1490,10 @@ background-color: rgb(178, 166, 140,0.5);
   border-radius: 15px;
   background-size: cover;
   margin-left: -37px;
+}
+
+#texto_h5{
+font-size: 33px;
+margin-top: -68px;
+margin-bottom: -48px;
 }
