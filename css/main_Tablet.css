@@ -2,7 +2,7 @@
 html {background-color:#eee8e1;}
 
 h1{
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2{
@@ -630,8 +630,8 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 #ventas_registradas{
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 800px;
+  width: 700px;
+  height: 900px;
   align-items: center;
   justify-content: space-evenly;
   background:rgb(236, 225, 210);
