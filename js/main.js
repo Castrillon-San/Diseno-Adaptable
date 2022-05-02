@@ -15,6 +15,7 @@ class Cliente {
   }
 }
 
+  let indexp;
 let imagenes_1 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_988790-MCO43380106237_092020-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_976111-MCO43380090914_092020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_711886-MCO42708505586_072020-F.webp');
 let imagenes_2 = new Array('https://http2.mlstatic.com/D_NQ_NP_941374-MCO43701065948_102020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_993074-MCO43701079800_102020-O.webp', 'https://http2.mlstatic.com/D_NQ_NP_942373-MCO43701118171_102020-O.webp');
 let imagenes_3 = new Array('https://http2.mlstatic.com/D_NQ_NP_2X_950665-MCO44739808912_012021-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_608341-MLA48833707882_012022-F.webp', 'https://http2.mlstatic.com/D_NQ_NP_2X_950665-MCO44739808912_012021-F.webp');
@@ -43,14 +44,13 @@ let m_libros =[new Libro("Satanás",d1,"20.000",sam,imagenes_1),new Libro("El Ps
 
 
 function seleccionarProducto(pos){
-  localStorage.setItem('index', pos);
+  sessionStorage.setItem('index', pos);
    window.location.href = "pantallaproducto.html";
-
 }
 
 
 function loadProduct() {
-  let index = localStorage.getItem('index');
+   indexp = sessionStorage.getItem('index');
 
 
   elemento=document.getElementById("producto_seleccionado");
@@ -62,18 +62,18 @@ function loadProduct() {
   elemento_foto_2=document.getElementById("image_slider_2");
   elemento_foto_3=document.getElementById("image_slider_3");
 
-  elemento.innerHTML=m_libros[index].titulo;
-  elemento_descripcion.innerHTML=m_libros[index].descripcion;
-  elemento_vendedor.innerHTML=m_libros[index].cliente.nombre;
-  elemento_precio.innerHTML=m_libros[index].precio;
-  imagen_vendedor=m_libros[index].cliente.profilePic;
+  elemento.innerHTML=m_libros[indexp].titulo;
+  elemento_descripcion.innerHTML=m_libros[indexp].descripcion;
+  elemento_vendedor.innerHTML=m_libros[indexp].cliente.nombre;
+  elemento_precio.innerHTML=m_libros[indexp].precio;
+  imagen_vendedor=m_libros[indexp].cliente.profilePic;
   html ="<img src= " +imagen_vendedor+" alt='blank-profile-picture-973460-1280'  class='vendedor_perfil'>";
   elemento_fotoVendedor.innerHTML=html;
-  html="<img src= " +m_libros[index].imagenes[0]+"  class='image_slider'>";
+  html="<img src= " +m_libros[indexp].imagenes[0]+"  class='image_slider'>";
   elemento_foto_1.innerHTML=html;
-  html="<img src= " +m_libros[index].imagenes[1]+"  class='image_slider'>";
+  html="<img src= " +m_libros[indexp].imagenes[1]+"  class='image_slider'>";
   elemento_foto_2.innerHTML=html;
-  html="<img src= " +m_libros[index].imagenes[2]+"  class='image_slider'>";
+  html="<img src= " +m_libros[indexp].imagenes[2]+"  class='image_slider'>";
   elemento_foto_3.innerHTML=html;
   showSlides(slideIndex);
 
@@ -118,6 +118,7 @@ window.onload = init;
 
 function init(){
 	ventana_login = document.getElementById('ventana_login');
+  loadProduct();
 }
 
 function irA(){
