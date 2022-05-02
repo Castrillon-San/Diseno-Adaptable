@@ -1563,6 +1563,7 @@ margin-bottom: 10px;
 .dots{
   text-align:center;
   display:flex;
-  width: 400px;
+  width: 100px;
   text-align: center;
+  justify-content: space-around;
 }
