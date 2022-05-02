@@ -1349,7 +1349,6 @@ p.ism-badge a.ism-link:hover {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
   background-color: rgb(178, 166, 140);
   border-radius: 50%;
   display: inline-block;
