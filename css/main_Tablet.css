@@ -14,9 +14,6 @@ h3{
   ;
 }
 
-h4{
-  margin-top: 60px;
-}
 
 #home{
 
@@ -1449,7 +1446,7 @@ background-color: rgb(178, 166, 140,0.5);
   height: 150px;
   border-radius: 20px;
   background-color:rgb(220, 201, 168,0.4);
-  margin-bottom:  38px;
+  margin-bottom:  55px;
 }
 
 .pantalla_perfil{
@@ -1483,4 +1480,13 @@ background-color: rgb(178, 166, 140,0.5);
   border-radius: 50px;
   margin-left: 16px;
   margin-top: 30px;
+}
+
+.boton_producto_vendido {
+  width: 115px;
+  height: 178px;
+  background: rgb(220, 201, 168);
+  border-radius: 15px;
+  background-size: cover;
+  margin-left: -37px;
 }
