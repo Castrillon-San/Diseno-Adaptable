@@ -166,6 +166,7 @@ h2{
     width: 400px;
     height: 350px;
     justify-content: space-evenly;
+    margin-bottom: 100px;
   }
   .text_box{
     width: 100%;
