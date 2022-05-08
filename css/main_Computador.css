@@ -17,7 +17,7 @@ h3{
 
 #home{
 
-  width: 680px;
+  width: 850px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -751,7 +751,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 
 .home_bar{
 display: flex;
-width: 90%;
+width: 95%;
 justify-content: space-evenly;
 align-items: center;
 
@@ -773,8 +773,8 @@ align-items: center;
 }
 .busqueda_home{
 
-  width: 530px;
-  height: 40px;
+  width: 800px;
+  height: 60px;
   background:rgb(220, 201, 168);
   border-radius:15px;
   border: none;
