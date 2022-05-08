@@ -2,7 +2,7 @@
 html {background-color:#eee8e1;}
 
 h1{
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2{
@@ -14,9 +14,6 @@ h3{
   ;
 }
 
-h4{
-  margin-top: 60px;
-}
 
 #home{
 
@@ -390,7 +387,8 @@ h4{
     justify-content: left;
     display: flex;
     align-items: center;
-    width: 800px;
+    width: 700px;
+    margin-bottom: -16px;
   }
   .busqueda{
     width: 600px;;
@@ -461,7 +459,7 @@ font-size: 18px;
   justify-content: space-evenly;
 }
 .button_normal{
-  width: 100px;
+  width: 130px;
   height: 36px;
   background:rgb(220, 201, 168);
   border-radius:10px;
@@ -633,8 +631,8 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 #ventas_registradas{
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 800px;
+  width: 700px;
+  height: 900px;
   align-items: center;
   justify-content: space-evenly;
   background:rgb(236, 225, 210);
@@ -1449,7 +1447,7 @@ background-color: rgb(178, 166, 140,0.5);
   height: 150px;
   border-radius: 20px;
   background-color:rgb(220, 201, 168,0.4);
-  margin-bottom:  38px;
+  margin-bottom:  55px;
 }
 
 .pantalla_perfil{
@@ -1483,4 +1481,19 @@ background-color: rgb(178, 166, 140,0.5);
   border-radius: 50px;
   margin-left: 16px;
   margin-top: 30px;
+}
+
+.boton_producto_vendido {
+  width: 115px;
+  height: 178px;
+  background: rgb(220, 201, 168);
+  border-radius: 15px;
+  background-size: cover;
+  margin-left: -37px;
+}
+
+#texto_h5{
+font-size: 33px;
+margin-top: -68px;
+margin-bottom: -48px;
 }
