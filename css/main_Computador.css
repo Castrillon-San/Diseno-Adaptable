@@ -134,7 +134,7 @@ h3{
 
   .info_vendedor{
     display: flex;
-    width: 760px;
+    width: 960px;
     justify-content:space-evenly;
     align-items: center;
   }
@@ -155,18 +155,17 @@ h3{
 
   .botoncarrito{
 
-    width: 250px;;
-    height: 70px;;
+    width: 350px;;
+    height: 90px;;
     background:rgb(220, 201, 168);
     border-radius:15px;
   }
   .descripcion_producto{
     height: auto;
-    width: 700px;
-    text-align: justify;
-    text-justify: inter-word;
-    margin: auto;
-    font-size: 1.3rem;
+    width: 1000px;
+    text-justify: center;
+    font-size: 1.5rem;
+    margin: 2rem;
   }
 
   .text_box{
@@ -196,7 +195,7 @@ h3{
 
   .productos_similares{
     display: flex;
-    width: 690px;
+    width: 900px;
     height: 350px;
     justify-content: space-evenly;
     margin-bottom: 100px;
