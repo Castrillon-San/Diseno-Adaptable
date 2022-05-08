@@ -72,11 +72,11 @@ h3{
   .pantalla_carrito{
     display: flex;
     flex-direction: column;
-    width:870px;
-    height:1332px;
+    width:1000px;
+    height:1500px;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
+    top: 1rem;
 
   }
 .centrado{
