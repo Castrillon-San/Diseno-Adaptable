@@ -71,6 +71,7 @@ h5{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-top: 60px;
   }
   .pantalla_carrito{
     display: flex;
@@ -137,15 +138,15 @@ h5{
 
   .info_vendedor{
     display: flex;
-    width: 960px;
+    width: 1330px;
     justify-content:space-evenly;
     align-items: center;
   }
 
   .vendedor_perfil{
-    width: 95px;
-    height: 95px;
-   border-radius: 50px;
+    width: 140px;
+    height: 140px;
+    border-radius: 72px;
 
   }
   .imageButton{
@@ -205,7 +206,7 @@ h5{
 
   }
   .nombre_vendedor{
-
+    font-size: 37px;
     margin-left:20px;
   }
 
@@ -216,24 +217,24 @@ h5{
   .opciones_ventas{
     flex-direction: column;
     justify-content: space-evenly;
-    height: 430px;
+    height: 370px;
   }
   .boton_opcion_venta{
-    width: 490px;;
-    height: 73px;;
-    background:rgb(220, 201, 168);
-    border-radius:45px;
-    font-size: 1.4rem;
+    width: 546px;
+    height: 58px;
+    background: rgb(220, 201, 168);
+    border-radius: 45px;
+    font-size: 1.2rem;
     }
   .productos_disponibles{
 
     display: flex;
     flex-direction: column;
-    width:115%;
-    height: 1000px;
+    width:180%;
+    height: auto;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     background-color: rgb(236, 225, 210);
     border-radius: 25px;
     margin-bottom: 150px;
@@ -242,8 +243,8 @@ h5{
 
     display:flex;
     flex-direction: column;
-    width: 700px;
-    height: 380px;
+    width: 800px;
+    height: 312px;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
@@ -1444,8 +1445,8 @@ background-color: rgb(178, 166, 140,0.5);
 
 .descripcion_perfil{
   display: flex;
-  width: 600px;
-  height: 200px;
+  width: 1000px;
+  height: auto;
   border-radius: 20px;
   background-color:rgb(220, 201, 168,0.4);
   text-align: justify;
@@ -1457,15 +1458,15 @@ background-color: rgb(178, 166, 140,0.5);
 
 .reseña{
   display:flex;
-  width: 600px;
-  height: 150px;
+  width: 1000px;
+  height: 129px;
   border-radius: 20px;
   background-color:rgb(220, 201, 168,0.4);
   margin-bottom:  55px;
 }
 
 .pantalla_perfil{
-  width: 600px;
+  width: 1200px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -1473,7 +1474,7 @@ background-color: rgb(178, 166, 140,0.5);
 
 
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 80px;
 
     margin-bottom: 59px;
       justify-content: space-around;
@@ -1483,18 +1484,18 @@ background-color: rgb(178, 166, 140,0.5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 466px;
-  height: 113px;
-  margin-left: 16%;
+  width: 900px;
+  height: 93px;
+  margin-left: 15%;
 }
 
 .reseña_perfil {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   border-radius: 50px;
-  margin-left: 16px;
-  margin-top: 30px;
+  margin-left: 30px;
+  margin-top: 3px;
 }
 
 .boton_producto_vendido {
@@ -1536,3 +1537,32 @@ margin-bottom: -48px;
   background-color: rgb(236, 225, 210);
   
   }
+  .stars{
+
+    display:flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 800px;
+    }
+
+    #acerca_ti{
+      margin-right: 70%;
+    }
+
+    #reseña{
+      margin-right: 74%;
+    }
+
+    .icons8-ajustes {
+      width: 50px;
+      height: 50px;
+      background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVRIieWVP0sDQRDFf1FTiMbGMqYQjJAQIjbRxsJvEJtYprcQP4XpjQiiiG0Q04goKEgQTOkHsLDTRsUEE5SoZ7Ev5HKXPxtLHRj29t2b2Zu3u3PwX2wDcDy+bhM4ZLnAvCX2K4sD95ivXpA7wuKDJgsAJaAIZIBt4FsJG8CovCHsS5yMYkr0USWLX+t3YAuIuXgxIK93Xn62W/Jx4EGkPaAM3AHJHh+UFKesGEc5Qp3Imy5CUNiwxlmMBFX5MRDVu6YkQeBROXKdFlgBaiKcqaJm8hf8UjwBYVf158JrQLpbySmgLmJCWFHzEyWcAk6FFcRJaF5Xjp72JvKY5lXNwy5ORNirqwJHsW1mc9EcjQELrs+8C6Rc2LTGS427GHkiega48HCH6CFRms6bHMVsqHeTn4EZcaw2OYf/mDarCWM2tCI/ciW3PqYhBr9oc+LcAPv0uWjQvVXkaW8VcUwP+ujAb2sV3pMRAK4w+haAJWANI8MnMCFOBRjBNMId4BpYBSaBZVonz8pitLfrRVrtOtYjbiA7xC/FgU2g7R/t1hL7g/YD2UKR7bWwmaIAAAAASUVORK5CYII=') 50% 50% no-repeat;
+      background-color:rgb(220, 201, 168);
+      background-size: 70%;
+      border-radius:50px;
+      margin-inline-end: 25%;
+      cursor: pointer;
+    
+    }
