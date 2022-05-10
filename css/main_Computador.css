@@ -14,6 +14,9 @@ h3{
   ;
 }
 
+h5{
+   font-size: 16px;
+}
 
 #home{
 
@@ -22,8 +25,8 @@ h3{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
-  margin: 0 auto;
+  margin-top: 60px;
+  /*margin: 0 auto;*/
   }
 .menu{
     position: absolute;
@@ -1519,3 +1522,17 @@ margin-bottom: -48px;
 .margen{
   margin: 3rem;
 }
+
+.grid_productos {
+  display: grid;
+  padding: 13px;
+  border-radius: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 26px;
+  grid-row-gap: 26px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  background-color: rgb(236, 225, 210);
+  
+  }

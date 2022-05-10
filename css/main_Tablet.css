@@ -717,13 +717,13 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 .form{
   display: flex;
-  width: 60%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 #redes{
   width: 50%;
