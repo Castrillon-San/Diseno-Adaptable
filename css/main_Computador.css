@@ -337,14 +337,15 @@ h5{
 
   }
   .icons8-back {
-    width: 60px;
+    display: none;
+   /* width: 60px;
     height: 60px;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAY0lEQVRIie2UMQqAMBAEJ2Lhs/Ii9Sna+R0/5qWJCjYqYSXCDRwpDmYgxYHzF0IemXwGFkVklxuwAVEp713+qbx0DppLxBATgInziwaPVBEpOhXtzd6AMb8dsL4NPEV6rh0tCXInNHOI/GCqAAAAAElFTkSuQmCC') 50% 50% no-repeat;
     background-color:rgb(220, 201, 168);
     background-size: 70%;
     border-radius:50px;
     margin-inline-end: 25%;
-    cursor: pointer;
+    cursor: pointer;*/
 
   }
 
@@ -640,13 +641,14 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 #ventas_registradas{
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 1200px;
   height: 900px;
   align-items: center;
   justify-content: space-evenly;
   background:rgb(236, 225, 210);
   border-radius:15px;
   margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 #venta_registrada{
@@ -660,8 +662,8 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   border-radius:15px;
 }
 #venta_final_resumen{
-  width: 50%;
-  height: 60%;
+  width: 70%;
+  height: auto;
   display: flex;
   flex-direction: column;
 
@@ -1565,4 +1567,8 @@ margin-bottom: -48px;
       margin-inline-end: 25%;
       cursor: pointer;
     
+    }
+
+    #mis_ventas{
+      font-size: 45px;
     }
