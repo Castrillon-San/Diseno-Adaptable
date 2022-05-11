@@ -29,7 +29,7 @@ h5{
   /*margin: 0 auto;*/
   }
 .menu{
-    position: fixed;  
+    position: fixed;
     top:0;
     height: 10px;
     width:100%;
@@ -41,7 +41,7 @@ h5{
     border-bottom-right-radius: 30px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    align-items: flex-end;   
+    align-items: flex-end;
     margin-bottom: 3rem;
 }
 .rotador_producto{
@@ -136,7 +136,7 @@ h5{
     margin-bottom: 100px;
     margin-top: 60px;
   }
-  
+
 
   .info_vendedor{
     display: flex;
@@ -404,7 +404,7 @@ h5{
     background:rgb(220, 201, 168);
     border-radius:25px;
     border: none;
-    
+
 
   }
   .buscar{
@@ -1109,8 +1109,8 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider {
-    width:600px;
-    height: 350px;
+    width:800px;
+    height: 450px;
     margin-bottom: 20px;
     -webkit-border-radius: 20px; border-radius: 20px;
 }
@@ -1538,7 +1538,7 @@ margin-bottom: -48px;
   margin-bottom: 100px;
   margin-top: 30px;
   background-color: rgb(236, 225, 210);
-  
+
   }
   .stars{
 
@@ -1567,7 +1567,7 @@ margin-bottom: -48px;
       border-radius:50px;
       margin-inline-end: 25%;
       cursor: pointer;
-    
+
     }
 
     #mis_ventas{
@@ -1577,8 +1577,7 @@ margin-bottom: -48px;
     #ver_mas{
       width: 200px;
       border-radius: 28px;
-    }  
+    }
     .menu_ocular{
       display: none;
     }
-   
