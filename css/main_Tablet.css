@@ -1497,3 +1497,7 @@ font-size: 33px;
 margin-top: -68px;
 margin-bottom: -48px;
 }
+
+.menu_ocular{
+  display: none;
+}
