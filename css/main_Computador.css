@@ -77,7 +77,7 @@ h5{
     display: flex;
     flex-direction: column;
     width:1000px;
-    height:1500px;
+    height:1650px;
     justify-content: space-evenly;
     align-items: center;
     top: 1rem;
@@ -162,7 +162,7 @@ h5{
     width: 350px;;
     height: 90px;;
     background:rgb(220, 201, 168);
-    border-radius:15px;
+    border-radius:50px;
   }
   .descripcion_producto{
     height: auto;
@@ -472,10 +472,10 @@ font-size: 18px;
   width: auto;
   height: 70px;
   background:rgb(220, 201, 168);
-  border-radius:10px;
+  border-radius:33px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 
 }
 .descripcion{
@@ -734,7 +734,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 #redes{
   width: 50%;
@@ -778,13 +778,11 @@ align-items: center;
   align-items: center;
 }
 .busqueda_home{
-
-  width: 800px;
+  width: 1000px;
   height: 60px;
-  background:rgb(220, 201, 168);
-  border-radius:15px;
+  background: rgb(220, 201, 168);
+  border-radius: 23px;
   border: none;
-
 }
 
 .mostrador{
@@ -809,8 +807,8 @@ align-items: center;
 }
 
 .filtro{
-  width: 25%;
-  height: 50px;
+  width: 30%;
+  height: 35px;
   border-radius: 40px;
   background-color: rgb(178, 166, 140,0.4);
   align-items: center;
