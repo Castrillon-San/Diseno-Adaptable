@@ -1576,7 +1576,7 @@ margin-top: 30px;
 background-color: rgb(236, 225, 210);
 
 }
-.parent {
+.menu_arriba {
 display: none;
 position: fixed;
 background-color:rgb(178,166,140,1);
@@ -1590,4 +1590,7 @@ z-index: 100;
 align-items: center;
 
 
+}
+.cursor_point{
+  cursor: pointer;
 }

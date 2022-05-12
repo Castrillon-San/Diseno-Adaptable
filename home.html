@@ -16,7 +16,7 @@
 
 <body>
 
-<div class="parent">
+<div class="menu_arriba">
   <img src="https://i.ibb.co/WG8YP7M/Alerce-1.png" alt="Solvetic" class="btn_home" id="logo">
   <a href="home.html"> <input type="button" class="icons8-home"></a>
   <a href="pantallacompras.html"> <input type="button" class="icons8-compras"></a>
@@ -60,20 +60,23 @@
     <br>
     <div class="ism-slider" id="my-slider">
       <ol>
-        <li>
-          <img src="https://eventosenagenda.com/wp-content/uploads/2021/10/DSC01728.png">
-          <div class="ism-caption ism-caption-0">Cuentos macabros</div>
+        <li onclick="seleccionarProducto(3)" class="cursor_point">
+
+            <img  src="https://eventosenagenda.com/wp-content/uploads/2021/10/DSC01728.png">
+
+
+          <div   onclick="seleccionarProducto(3)" class="ism-caption ism-caption-0">Cuentos macabros</div>
 
         </li>
-        <li>
+        <li  onclick="seleccionarProducto(2)" class="cursor_point">
           <img src="https://i.pinimg.com/originals/58/77/1f/58771f55439c7eb26e7f8a9b1c4b16a4.jpg">
-          <div class="ism-caption ism-caption-0">Saga: Cazadores de sombras</div>
+          <div  onclick="seleccionarProducto(2)" class="ism-caption ism-caption-0">Saga: Cazadores de sombras</div>
         </li>
-        <li>
+        <li  onclick="seleccionarProducto(5)" class="cursor_point">
 
           <img
             src="https://images.squarespace-cdn.com/content/v1/54db2efce4b0486db50f5c9f/1585227878559-JSSICAP1CYJUUSZ57LIU/Siddhartha-Header.jpg?format=2500w">
-          <div class="ism-caption ism-caption-0">Siddhartha </div>
+          <div onclick="seleccionarProducto(5)" class="ism-caption ism-caption-0">Siddhartha </div>
         </li>
       </ol>
     </div>

@@ -67,6 +67,7 @@ h3{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
   }
   .pantalla_carrito{
     display: flex;
@@ -1497,7 +1498,7 @@ font-size: 33px;
 margin-top: -68px;
 margin-bottom: -48px;
 }
-.parent {
+.menu_arriba {
 display: none;
 position: fixed;
 background-color:rgb(178,166,140,1);
@@ -1511,4 +1512,7 @@ z-index: 100;
 align-items: center;
 
 
+}
+.cursor_point{
+  cursor: pointer;
 }
