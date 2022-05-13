@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=no" name="viewport"/>
-    <link rel="stylesheet" href="css\main.css">
-    <link rel="stylesheet" href="css/main_Tablet.css" media="screen and (min-width: 700px)">
-    <link rel="stylesheet" href="css/main_Computador.css" media="screen and (min-width: 1000px)">
-    <title>LogIn</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=0.95, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  <link rel="stylesheet" href="css\main.css">
+  <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main_Tablet.css" media="screen and (min-width: 700px)">
+  <link rel="stylesheet" href="css/main_Computador.css" media="screen and (min-width: 1000px)">
+  <title>Home</title>
+  <script type="text/javascript" src="js/main.js"></script>
+
 </head>
 <body>
-   <section class="login">
-       <div class="ingreso_datos">
-        <img  src="https://i.ibb.co/nP9j6cz/Alerce-4.png"
-        alt="Solvetic" width="400" height="400" >
+  <div class="notificacion">
+    <div class="notificacion_libro">
+    <div class="page_1"><div class="page_1_contenido"></div></div>
+    <div class="page_2">  <div class="page_2_contenido"></div></div>
+    </div>
+    <section class="login">
+      <img  src="https://i.ibb.co/nP9j6cz/Alerce-4.png"
+      alt="Solvetic"class="logo_notificacion" >
+             <form  action=""class="form">
+                 <label for="usuario">
+                     <input type="text" class="text_box_login"id="usuario" placeholder= "Email" name="usuario">
+                 </label>
+                 <br>
+                 <label for="clave">
 
+                         <input type="password" class="text_box_login" id="clave" placeholder= "Clave" name="clave">
+                     </label>
+                 <br>
 
-            <form  action=""class="form">
-                <label for="usuario">
-                    <input type="text" id="usuario" placeholder= "Email" name="usuario">
-                </label>
-                <br>
-                <label for="clave">
+                 <a href="home.html"><input class="button_login" type="button" value="Iniciar sesión"></a>
 
-                        <input type="password" id="clave" placeholder= "Clave" name="clave">
-                    </label>
-                <br>
+                 <br>
+                 <div class="aling_in_column">
+                   <a class="info_login" href="pantallaregistro.html">Crear cuenta</a>
+                   <a class="info_login"  href="pantallaregistro.html">Olvidé mi contraseña</a>
+                 </div>
+               </form>
+        </div>
+    </section>
+</div>
 
-                <a href="home.html"><input type="button" value="Iniciar sesión"></a>
-
-                <br>
-                <div class="aling_in_column">
-                  <a  href="pantallaregistro.html">Crear cuenta</a>
-                  <a  href="pantallaregistro.html">Olvidé mi contraseña</a>
-                </div>
-
-
-              </form>
-
-
-
-       </div>
-
-
-   </section>
 
 </body>
 </html>

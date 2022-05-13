@@ -235,6 +235,7 @@ h3{
     background-color: rgb(236, 225, 210);
     border-radius: 25px;
     margin-bottom: 150px;
+    margin-left: -8%;
   }
   .producto_en_venta{
 
@@ -686,19 +687,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
   margin-top: 25px;
   border-radius: 30px;
 }
-.login{
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  font-size: 2rem;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 25px;
-  margin-bottom: 50px;
-  margin: 0 auto;
 
-}
 .aling_in_column{
   display: flex;
   width: 400px;
@@ -1515,4 +1504,159 @@ align-items: center;
 }
 .cursor_point{
   cursor: pointer;
+}
+.espacio_blanco{
+  display: block;
+  width: 230px;
+}
+.notificacion_info{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 2rem;
+  font-size: 2rem;
+  align-items: center;
+  margin: 0 auto;
+}
+.notificacion{
+    position: absolute;
+    display: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    justify-content: center;
+    align-items: center;
+
+}
+.button_notificacion{
+  width: 30%;
+  height: 40px;
+  background:rgb(220, 201, 168);
+  border-radius:33px;
+  margin-top: 50px;
+  font-size: 1rem;
+  border-style: none;
+  cursor: pointer;
+
+
+}
+
+.notificacion_texto{
+  margin-top: -300px;
+}
+.notificacion_libro{
+
+  display: flex;
+  width: 450px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.page_1{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: rgb(220,201,168);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+.page_2{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: rgb(220,201,168);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.page_1_contenido{
+  display: flex;
+  width: 90%;
+  height: 90%;
+  border-radius: 6px;
+  background-color: rgb(238, 232, 225);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+.page_2_contenido{
+  display: flex;
+  width: 90%;
+  height: 90%;
+  border-radius: 6px;
+  background-color: rgb(238, 232, 225);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+margin-right: 10%;
+  margin-top: 8%;
+}
+.ocultar_notificacion{
+  display: none;
+}
+.logo_notificacion{
+
+  width:100px;
+  height: 100px;
+  border-radius: 30px;
+
+}
+
+.text_box_login{
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(220,201,168);
+  font-weight: bold;
+  color:antiquewhite;
+}
+.button_login{
+  width: 150px;
+  height: 30px;
+  border-style: none;
+  background:rgb(220, 201, 168);
+  border-radius:13px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+.info_login{
+  font-size: 0.9rem;
+ color:black;
+}
+.login{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 2rem;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -350px;
+}
+.registro{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 2rem;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -555px;
+}
+.registro_libro{
+  display: flex;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
