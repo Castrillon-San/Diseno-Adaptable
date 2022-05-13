@@ -754,7 +754,10 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 #logo{
   width: 100px;
   height: 100px;
-  margin-right: 150px;
+
+  position: absolute;
+  margin-left:35px;
+
 }
 
 .hamburguesa{
@@ -785,12 +788,12 @@ align-items: center;
   align-items: center;
 }
 .busqueda_home{
-  width: 500px;
+  width: 360px;
   height: 60px;
   background: rgb(220, 201, 168);
   border-radius: 13px;
   border: none;
-   margin-right: 150px;
+  margin-right: 150px;
 }
 
 .mostrador{
@@ -1608,8 +1611,11 @@ margin-bottom: -48px;
   z-index: 100;
   align-items: center;
   top:0;
-
   }
 .cursor_point{
   cursor: pointer;
+}
+.espacio_blanco{
+  display: block;
+  width: 230px;
 }
