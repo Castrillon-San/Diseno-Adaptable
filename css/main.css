@@ -1626,9 +1626,9 @@ align-items: center;
 
   display: flex;
   width: 350px;
-  height: 400px;
+  height: 600px;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .page_1{
   display: flex;
@@ -1711,11 +1711,10 @@ margin-right: 10%;
   margin: 0 auto;
   position: relative;
   width: 200px;
-  height: 2rem;
+  height: 140px;
   font-size: 2rem;
   align-items: center;
-  justify-content: space-between;
-  margin-top: -350px;
+  margin-top: -500px;
 }
 .registro{
   display: flex;
@@ -1723,10 +1722,11 @@ margin-right: 10%;
   margin: 0 auto;
   position: relative;
   width: 200px;
-  height: 2rem;
+  height:400px;
   font-size: 2rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content:stretch;
+
   margin-top: -565px;
 }
 .registro_libro{

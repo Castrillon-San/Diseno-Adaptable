@@ -1550,7 +1550,7 @@ align-items: center;
 
   display: flex;
   width: 450px;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -1635,11 +1635,11 @@ margin-right: 10%;
   margin: 0 auto;
   position: relative;
   width: 200px;
-  height: 2rem;
+  height: 240px;
   font-size: 2rem;
   align-items: center;
   justify-content: space-between;
-  margin-top: -350px;
+  margin-top: -430px;
 }
 .registro{
   display: flex;
