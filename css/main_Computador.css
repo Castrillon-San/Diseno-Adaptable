@@ -721,14 +721,8 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 
 }
 .form{
-  display: flex;
-  width: 60%;
-  height: auto;
-  margin: 0 auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.6rem;
+  width: 90%;
+
 }
 #redes{
   width: 100%;
@@ -1742,10 +1736,8 @@ margin-right: 10%;
 .registro{
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   position: relative;
   width: 200px;
-  height: 2rem;
   font-size: 2rem;
   align-items: center;
   justify-content: space-between;

@@ -433,9 +433,10 @@ font-size: 12px;
 }
 .aling_in_line{
   display: flex;
-  width: 90%;
+  width: 200px;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: -20px;
 }
 .button_normal{
   width: 130px;
@@ -675,7 +676,7 @@ align-items: center;
 .form{
   display: flex;
 
-  width: 30%;
+  width: 90%;
   height: auto;
 margin: 0 auto;
 flex-direction: column;
@@ -683,7 +684,7 @@ justify-content: center;
 align-items: center;
 }
 #redes{
-  width: 50%;
+  width: 100%;
 }
 .btn_home{
   width: 50px;
@@ -1726,7 +1727,6 @@ margin-right: 10%;
   font-size: 2rem;
   align-items: center;
   justify-content:stretch;
-
   margin-top: -565px;
 }
 .registro_libro{
