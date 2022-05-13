@@ -157,6 +157,14 @@ html {background-color:#eee8e1;}
     text-justify: inter-word;
 
   }
+  .busqueda_resultados{
+    width: 350px;;
+    height: 40px;;
+    background:rgb(220, 201, 168);
+    border-radius:15px;
+    border: none;
+    margin-top: 19px;
+  }
   .text_box{
     width: 180px;
     height: 30px;
@@ -1564,8 +1572,7 @@ grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 26px;
 grid-row-gap: 26px;
-margin-bottom: 100px;
-margin-top: 30px;
+
 background-color: rgb(236, 225, 210);
 
 }
